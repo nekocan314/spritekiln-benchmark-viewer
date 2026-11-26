@@ -1,0 +1,35 @@
+# Classic Fantasy RPG palette (4-6 hue-shifted tones per ramp; index 0 = outline/darkest)
+# Designed for high value contrast between adjacent materials at 64x64 top-down 3/4.
+ramps:
+  # Character base
+  skin:       ["#1c0d0d", "#5a2b24", "#964d38", "#c87e5a", "#e4ae86", "#f5d4b2"]
+  ink:        ["#0c0a14", "#1b172a", "#302a46"]
+  cloth:      ["#0b0c14", "#222638", "#3a415a", "#56617c", "#7a87a2"]
+
+  # Hair variations (distinct values against skin and outfits)
+  hair:       ["#12090a", "#3e211b", "#6e3d28", "#9e6338", "#c48d56", "#e0bc88"]
+  hair_dark:  ["#090a12", "#1a1f36", "#2e3959", "#485980", "#6c82ab"]
+  hair_gold:  ["#1a1008", "#5e3816", "#a46d22", "#d8a83e", "#eed478", "#fbf0b8"]
+  tie:        ["#14070c", "#6c182c", "#bc2c38", "#e26356", "#f5b09c"]
+
+  # Light adventurer outfit (green tunic + dark leather + crimson shoulder cape)
+  tunic:      ["#091210", "#1b4538", "#2d7554", "#44a168", "#70c182", "#a4dba8"]
+  cape:       ["#13070b", "#5c1828", "#a82834", "#d6524b", "#ed9884"]
+  leather:    ["#120a08", "#3d2218", "#6b3e24", "#98633a", "#bc8d58", "#d8b888"]
+
+  # Heavy knight outfit (bright silver steel + dark gambeson + gold trim)
+  steel:      ["#0b0d14", "#32384c", "#566280", "#8293ae", "#b6c5d4", "#ecf2f6"]
+  armor_dark: ["#080910", "#1d2136", "#313a56", "#4b5978", "#6c7d9c"]
+  gold:       ["#150b06", "#643a16", "#b07620", "#deb342", "#f0d87c", "#faf2c4"]
+
+  # Mage robe outfit (royal blue robe + bright ivory trim + plum-indigo hat)
+  robe:       ["#080a16", "#1a2458", "#294696", "#3e74c8", "#76a8da", "#b4d6ec"]
+  robe_trim:  ["#161210", "#584c44", "#968776", "#cac1b0", "#f2f0e8"]
+  hat:        ["#0c0814", "#281d44", "#463472", "#6c54a0", "#9c84c8"]
+
+  # Weapons & VFX
+  wood:       ["#110908", "#42251a", "#72472a", "#9e6f40", "#be9860", "#d4be90"]
+  magic:      ["#040c18", "#0c387a", "#0d78da", "#38c0ff", "#8ee8ff", "#e2fcff"]
+  fx_core:    ["#ffffff"]
+  fx_mid:     ["#fff2b8"]
+  fx_tail:    ["#ff9e44"]

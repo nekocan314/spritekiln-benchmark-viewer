@@ -1,0 +1,10716 @@
+{
+ "frames": {
+  "idle_s_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_s_1": {
+   "frame": {
+    "x": 64,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_s_2": {
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_s_3": {
+   "frame": {
+    "x": 192,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_s_4": {
+   "frame": {
+    "x": 256,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_s_5": {
+   "frame": {
+    "x": 320,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_0": {
+   "frame": {
+    "x": 0,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_1": {
+   "frame": {
+    "x": 64,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_2": {
+   "frame": {
+    "x": 128,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_3": {
+   "frame": {
+    "x": 192,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_4": {
+   "frame": {
+    "x": 256,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_se_5": {
+   "frame": {
+    "x": 320,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_0": {
+   "frame": {
+    "x": 0,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_1": {
+   "frame": {
+    "x": 64,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_2": {
+   "frame": {
+    "x": 128,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_3": {
+   "frame": {
+    "x": 192,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_4": {
+   "frame": {
+    "x": 256,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_e_5": {
+   "frame": {
+    "x": 320,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_0": {
+   "frame": {
+    "x": 0,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_1": {
+   "frame": {
+    "x": 64,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_2": {
+   "frame": {
+    "x": 128,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_3": {
+   "frame": {
+    "x": 192,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_4": {
+   "frame": {
+    "x": 256,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_ne_5": {
+   "frame": {
+    "x": 320,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_0": {
+   "frame": {
+    "x": 0,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_1": {
+   "frame": {
+    "x": 64,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_2": {
+   "frame": {
+    "x": 128,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_3": {
+   "frame": {
+    "x": 192,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_4": {
+   "frame": {
+    "x": 256,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_n_5": {
+   "frame": {
+    "x": 320,
+    "y": 256,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_0": {
+   "frame": {
+    "x": 0,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_1": {
+   "frame": {
+    "x": 64,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_2": {
+   "frame": {
+    "x": 128,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_3": {
+   "frame": {
+    "x": 192,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_4": {
+   "frame": {
+    "x": 256,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_nw_5": {
+   "frame": {
+    "x": 320,
+    "y": 320,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_0": {
+   "frame": {
+    "x": 0,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_1": {
+   "frame": {
+    "x": 64,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_2": {
+   "frame": {
+    "x": 128,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_3": {
+   "frame": {
+    "x": 192,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_4": {
+   "frame": {
+    "x": 256,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_w_5": {
+   "frame": {
+    "x": 320,
+    "y": 384,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_0": {
+   "frame": {
+    "x": 0,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_1": {
+   "frame": {
+    "x": 64,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_2": {
+   "frame": {
+    "x": 128,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_3": {
+   "frame": {
+    "x": 192,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_4": {
+   "frame": {
+    "x": 256,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "idle_sw_5": {
+   "frame": {
+    "x": 320,
+    "y": 448,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 160
+  },
+  "walk_s_0": {
+   "frame": {
+    "x": 0,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_1": {
+   "frame": {
+    "x": 64,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_2": {
+   "frame": {
+    "x": 128,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_3": {
+   "frame": {
+    "x": 192,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_4": {
+   "frame": {
+    "x": 256,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_5": {
+   "frame": {
+    "x": 320,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_6": {
+   "frame": {
+    "x": 384,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_s_7": {
+   "frame": {
+    "x": 448,
+    "y": 512,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_0": {
+   "frame": {
+    "x": 0,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_1": {
+   "frame": {
+    "x": 64,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_2": {
+   "frame": {
+    "x": 128,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_3": {
+   "frame": {
+    "x": 192,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_4": {
+   "frame": {
+    "x": 256,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_5": {
+   "frame": {
+    "x": 320,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_6": {
+   "frame": {
+    "x": 384,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_se_7": {
+   "frame": {
+    "x": 448,
+    "y": 576,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_0": {
+   "frame": {
+    "x": 0,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_1": {
+   "frame": {
+    "x": 64,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_2": {
+   "frame": {
+    "x": 128,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_3": {
+   "frame": {
+    "x": 192,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_4": {
+   "frame": {
+    "x": 256,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_5": {
+   "frame": {
+    "x": 320,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_6": {
+   "frame": {
+    "x": 384,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_e_7": {
+   "frame": {
+    "x": 448,
+    "y": 640,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_0": {
+   "frame": {
+    "x": 0,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_1": {
+   "frame": {
+    "x": 64,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_2": {
+   "frame": {
+    "x": 128,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_3": {
+   "frame": {
+    "x": 192,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_4": {
+   "frame": {
+    "x": 256,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_5": {
+   "frame": {
+    "x": 320,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_6": {
+   "frame": {
+    "x": 384,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_ne_7": {
+   "frame": {
+    "x": 448,
+    "y": 704,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_0": {
+   "frame": {
+    "x": 0,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_1": {
+   "frame": {
+    "x": 64,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_2": {
+   "frame": {
+    "x": 128,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_3": {
+   "frame": {
+    "x": 192,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_4": {
+   "frame": {
+    "x": 256,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_5": {
+   "frame": {
+    "x": 320,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_6": {
+   "frame": {
+    "x": 384,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_n_7": {
+   "frame": {
+    "x": 448,
+    "y": 768,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_0": {
+   "frame": {
+    "x": 0,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_1": {
+   "frame": {
+    "x": 64,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_2": {
+   "frame": {
+    "x": 128,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_3": {
+   "frame": {
+    "x": 192,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_4": {
+   "frame": {
+    "x": 256,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_5": {
+   "frame": {
+    "x": 320,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_6": {
+   "frame": {
+    "x": 384,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_nw_7": {
+   "frame": {
+    "x": 448,
+    "y": 832,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_0": {
+   "frame": {
+    "x": 0,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_1": {
+   "frame": {
+    "x": 64,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_2": {
+   "frame": {
+    "x": 128,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_3": {
+   "frame": {
+    "x": 192,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_4": {
+   "frame": {
+    "x": 256,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_5": {
+   "frame": {
+    "x": 320,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_6": {
+   "frame": {
+    "x": 384,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_w_7": {
+   "frame": {
+    "x": 448,
+    "y": 896,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_0": {
+   "frame": {
+    "x": 0,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_1": {
+   "frame": {
+    "x": 64,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_2": {
+   "frame": {
+    "x": 128,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_3": {
+   "frame": {
+    "x": 192,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_4": {
+   "frame": {
+    "x": 256,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_5": {
+   "frame": {
+    "x": 320,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_6": {
+   "frame": {
+    "x": 384,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "walk_sw_7": {
+   "frame": {
+    "x": 448,
+    "y": 960,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_s_0": {
+   "frame": {
+    "x": 0,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_s_1": {
+   "frame": {
+    "x": 64,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_s_2": {
+   "frame": {
+    "x": 128,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_s_3": {
+   "frame": {
+    "x": 192,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_s_4": {
+   "frame": {
+    "x": 256,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_s_5": {
+   "frame": {
+    "x": 320,
+    "y": 1024,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_se_0": {
+   "frame": {
+    "x": 0,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_se_1": {
+   "frame": {
+    "x": 64,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_se_2": {
+   "frame": {
+    "x": 128,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_se_3": {
+   "frame": {
+    "x": 192,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_se_4": {
+   "frame": {
+    "x": 256,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_se_5": {
+   "frame": {
+    "x": 320,
+    "y": 1088,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_e_0": {
+   "frame": {
+    "x": 0,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_e_1": {
+   "frame": {
+    "x": 64,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_e_2": {
+   "frame": {
+    "x": 128,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_e_3": {
+   "frame": {
+    "x": 192,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_e_4": {
+   "frame": {
+    "x": 256,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_e_5": {
+   "frame": {
+    "x": 320,
+    "y": 1152,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_ne_0": {
+   "frame": {
+    "x": 0,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_ne_1": {
+   "frame": {
+    "x": 64,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_ne_2": {
+   "frame": {
+    "x": 128,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_ne_3": {
+   "frame": {
+    "x": 192,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_ne_4": {
+   "frame": {
+    "x": 256,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_ne_5": {
+   "frame": {
+    "x": 320,
+    "y": 1216,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_n_0": {
+   "frame": {
+    "x": 0,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_n_1": {
+   "frame": {
+    "x": 64,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_n_2": {
+   "frame": {
+    "x": 128,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_n_3": {
+   "frame": {
+    "x": 192,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_n_4": {
+   "frame": {
+    "x": 256,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_n_5": {
+   "frame": {
+    "x": 320,
+    "y": 1280,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_nw_0": {
+   "frame": {
+    "x": 0,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_nw_1": {
+   "frame": {
+    "x": 64,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_nw_2": {
+   "frame": {
+    "x": 128,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_nw_3": {
+   "frame": {
+    "x": 192,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_nw_4": {
+   "frame": {
+    "x": 256,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_nw_5": {
+   "frame": {
+    "x": 320,
+    "y": 1344,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_w_0": {
+   "frame": {
+    "x": 0,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_w_1": {
+   "frame": {
+    "x": 64,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_w_2": {
+   "frame": {
+    "x": 128,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_w_3": {
+   "frame": {
+    "x": 192,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_w_4": {
+   "frame": {
+    "x": 256,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_w_5": {
+   "frame": {
+    "x": 320,
+    "y": 1408,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_sw_0": {
+   "frame": {
+    "x": 0,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "attack_sw_1": {
+   "frame": {
+    "x": 64,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 150
+  },
+  "attack_sw_2": {
+   "frame": {
+    "x": 128,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "attack_sw_3": {
+   "frame": {
+    "x": 192,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "attack_sw_4": {
+   "frame": {
+    "x": 256,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "attack_sw_5": {
+   "frame": {
+    "x": 320,
+    "y": 1472,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 110
+  },
+  "dodge_s_0": {
+   "frame": {
+    "x": 0,
+    "y": 1536,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_s_1": {
+   "frame": {
+    "x": 64,
+    "y": 1536,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_s_2": {
+   "frame": {
+    "x": 128,
+    "y": 1536,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_s_3": {
+   "frame": {
+    "x": 192,
+    "y": 1536,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_s_4": {
+   "frame": {
+    "x": 256,
+    "y": 1536,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_se_0": {
+   "frame": {
+    "x": 0,
+    "y": 1600,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_se_1": {
+   "frame": {
+    "x": 64,
+    "y": 1600,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_se_2": {
+   "frame": {
+    "x": 128,
+    "y": 1600,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_se_3": {
+   "frame": {
+    "x": 192,
+    "y": 1600,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_se_4": {
+   "frame": {
+    "x": 256,
+    "y": 1600,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_e_0": {
+   "frame": {
+    "x": 0,
+    "y": 1664,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_e_1": {
+   "frame": {
+    "x": 64,
+    "y": 1664,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_e_2": {
+   "frame": {
+    "x": 128,
+    "y": 1664,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_e_3": {
+   "frame": {
+    "x": 192,
+    "y": 1664,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_e_4": {
+   "frame": {
+    "x": 256,
+    "y": 1664,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_ne_0": {
+   "frame": {
+    "x": 0,
+    "y": 1728,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_ne_1": {
+   "frame": {
+    "x": 64,
+    "y": 1728,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_ne_2": {
+   "frame": {
+    "x": 128,
+    "y": 1728,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_ne_3": {
+   "frame": {
+    "x": 192,
+    "y": 1728,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_ne_4": {
+   "frame": {
+    "x": 256,
+    "y": 1728,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_n_0": {
+   "frame": {
+    "x": 0,
+    "y": 1792,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_n_1": {
+   "frame": {
+    "x": 64,
+    "y": 1792,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_n_2": {
+   "frame": {
+    "x": 128,
+    "y": 1792,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_n_3": {
+   "frame": {
+    "x": 192,
+    "y": 1792,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_n_4": {
+   "frame": {
+    "x": 256,
+    "y": 1792,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_nw_0": {
+   "frame": {
+    "x": 0,
+    "y": 1856,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_nw_1": {
+   "frame": {
+    "x": 64,
+    "y": 1856,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_nw_2": {
+   "frame": {
+    "x": 128,
+    "y": 1856,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_nw_3": {
+   "frame": {
+    "x": 192,
+    "y": 1856,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_nw_4": {
+   "frame": {
+    "x": 256,
+    "y": 1856,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_w_0": {
+   "frame": {
+    "x": 0,
+    "y": 1920,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_w_1": {
+   "frame": {
+    "x": 64,
+    "y": 1920,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_w_2": {
+   "frame": {
+    "x": 128,
+    "y": 1920,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_w_3": {
+   "frame": {
+    "x": 192,
+    "y": 1920,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_w_4": {
+   "frame": {
+    "x": 256,
+    "y": 1920,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  },
+  "dodge_sw_0": {
+   "frame": {
+    "x": 0,
+    "y": 1984,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 50
+  },
+  "dodge_sw_1": {
+   "frame": {
+    "x": 64,
+    "y": 1984,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 65
+  },
+  "dodge_sw_2": {
+   "frame": {
+    "x": 128,
+    "y": 1984,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 75
+  },
+  "dodge_sw_3": {
+   "frame": {
+    "x": 192,
+    "y": 1984,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 90
+  },
+  "dodge_sw_4": {
+   "frame": {
+    "x": 256,
+    "y": 1984,
+    "w": 64,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   },
+   "duration": 100
+  }
+ },
+ "meta": {
+  "app": "spritekiln",
+  "version": "0.4.0",
+  "image": "preset_b_light_short_staff.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 512,
+   "h": 2048
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "idle_s",
+    "from": 0,
+    "to": 5,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_se",
+    "from": 6,
+    "to": 11,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_e",
+    "from": 12,
+    "to": 17,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_ne",
+    "from": 18,
+    "to": 23,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_n",
+    "from": 24,
+    "to": 29,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_nw",
+    "from": 30,
+    "to": 35,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_w",
+    "from": 36,
+    "to": 41,
+    "direction": "forward"
+   },
+   {
+    "name": "idle_sw",
+    "from": 42,
+    "to": 47,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_s",
+    "from": 48,
+    "to": 55,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_se",
+    "from": 56,
+    "to": 63,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_e",
+    "from": 64,
+    "to": 71,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_ne",
+    "from": 72,
+    "to": 79,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_n",
+    "from": 80,
+    "to": 87,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_nw",
+    "from": 88,
+    "to": 95,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_w",
+    "from": 96,
+    "to": 103,
+    "direction": "forward"
+   },
+   {
+    "name": "walk_sw",
+    "from": 104,
+    "to": 111,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_s",
+    "from": 112,
+    "to": 117,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_se",
+    "from": 118,
+    "to": 123,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_e",
+    "from": 124,
+    "to": 129,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_ne",
+    "from": 130,
+    "to": 135,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_n",
+    "from": 136,
+    "to": 141,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_nw",
+    "from": 142,
+    "to": 147,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_w",
+    "from": 148,
+    "to": 153,
+    "direction": "forward"
+   },
+   {
+    "name": "attack_sw",
+    "from": 154,
+    "to": 159,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_s",
+    "from": 160,
+    "to": 164,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_se",
+    "from": 165,
+    "to": 169,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_e",
+    "from": 170,
+    "to": 174,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_ne",
+    "from": 175,
+    "to": 179,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_n",
+    "from": 180,
+    "to": 184,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_nw",
+    "from": 185,
+    "to": 189,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_w",
+    "from": 190,
+    "to": 194,
+    "direction": "forward"
+   },
+   {
+    "name": "dodge_sw",
+    "from": 195,
+    "to": 199,
+    "direction": "forward"
+   }
+  ]
+ },
+ "spritekiln": {
+  "format": 1,
+  "generator": "spritekiln 0.4.0",
+  "name": "preset_b_light_short_staff",
+  "frame_size": 64,
+  "pivot": {
+   "x": 32.0,
+   "y": 52.49
+  },
+  "directions": [
+   "s",
+   "se",
+   "e",
+   "ne",
+   "n",
+   "nw",
+   "w",
+   "sw"
+  ],
+  "direction_yaw": {
+   "s": 0,
+   "se": 45,
+   "e": 90,
+   "ne": 135,
+   "n": 180,
+   "nw": -135,
+   "w": -90,
+   "sw": -45
+  },
+  "view": "topdown",
+  "camera": {
+   "projection": "orthographic",
+   "pitch_deg": 38.0,
+   "world_units_per_px": 0.04,
+   "px_per_unit": 25.0,
+   "ground_k": 0.6157,
+   "height_k": 0.788,
+   "center": [
+    0.0,
+    1.04,
+    0.0
+   ]
+  },
+  "normal_map": "preset_b_light_short_staff_normal.png",
+  "emissive_map": "preset_b_light_short_staff_emissive.png",
+  "animations": {
+   "idle": {
+    "loop": true,
+    "directions": {
+     "s": {
+      "row": 0,
+      "frames": [
+       "idle_s_0",
+       "idle_s_1",
+       "idle_s_2",
+       "idle_s_3",
+       "idle_s_4",
+       "idle_s_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         8.75,
+         -14.71,
+         2.08
+        ],
+        [
+         8.75,
+         -16.18,
+         1.97
+        ],
+        [
+         8.75,
+         -16.45,
+         1.99
+        ],
+        [
+         8.75,
+         -15.25,
+         2.12
+        ],
+        [
+         8.75,
+         -13.77,
+         2.23
+        ],
+        [
+         8.75,
+         -13.51,
+         2.21
+        ]
+       ],
+       "hand_R": [
+        [
+         -8.25,
+         -14.49,
+         3.63
+        ],
+        [
+         -8.25,
+         -15.96,
+         3.52
+        ],
+        [
+         -8.25,
+         -16.23,
+         3.53
+        ],
+        [
+         -8.25,
+         -15.02,
+         3.66
+        ],
+        [
+         -8.25,
+         -13.55,
+         3.78
+        ],
+        [
+         -8.25,
+         -13.28,
+         3.76
+        ]
+       ],
+       "head_top": [
+        [
+         0.0,
+         -35.92,
+         1.82
+        ],
+        [
+         0.0,
+         -37.43,
+         1.22
+        ],
+        [
+         0.0,
+         -37.57,
+         1.0
+        ],
+        [
+         0.0,
+         -36.2,
+         1.37
+        ],
+        [
+         0.0,
+         -34.69,
+         1.97
+        ],
+        [
+         0.0,
+         -34.54,
+         2.19
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -13.68,
+         -25.88,
+         4.47
+        ],
+        [
+         -14.2,
+         -27.73,
+         3.52
+        ],
+        [
+         -14.81,
+         -28.23,
+         2.82
+        ],
+        [
+         -14.84,
+         -26.97,
+         3.02
+        ],
+        [
+         -14.27,
+         -25.21,
+         3.94
+        ],
+        [
+         -13.71,
+         -24.61,
+         4.68
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -13.68,
+         -25.88,
+         4.47
+        ],
+        [
+         -14.2,
+         -27.73,
+         3.52
+        ],
+        [
+         -14.81,
+         -28.23,
+         2.82
+        ],
+        [
+         -14.84,
+         -26.97,
+         3.02
+        ],
+        [
+         -14.27,
+         -25.21,
+         3.94
+        ],
+        [
+         -13.71,
+         -24.61,
+         4.68
+        ]
+       ]
+      }
+     },
+     "se": {
+      "row": 1,
+      "frames": [
+       "idle_se_0",
+       "idle_se_1",
+       "idle_se_2",
+       "idle_se_3",
+       "idle_se_4",
+       "idle_se_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         7.66,
+         -18.9,
+         -4.72
+        ],
+        [
+         7.68,
+         -20.37,
+         -4.84
+        ],
+        [
+         7.69,
+         -20.64,
+         -4.83
+        ],
+        [
+         7.68,
+         -19.44,
+         -4.69
+        ],
+        [
+         7.66,
+         -17.96,
+         -4.57
+        ],
+        [
+         7.65,
+         -17.69,
+         -4.58
+        ]
+       ],
+       "hand_R": [
+        [
+         -3.27,
+         -11.55,
+         8.4
+        ],
+        [
+         -3.25,
+         -13.03,
+         8.28
+        ],
+        [
+         -3.23,
+         -13.3,
+         8.29
+        ],
+        [
+         -3.24,
+         -12.09,
+         8.42
+        ],
+        [
+         -3.27,
+         -10.61,
+         8.54
+        ],
+        [
+         -3.28,
+         -10.34,
+         8.53
+        ]
+       ],
+       "head_top": [
+        [
+         1.29,
+         -36.25,
+         1.29
+        ],
+        [
+         0.97,
+         -37.68,
+         0.82
+        ],
+        [
+         0.81,
+         -37.78,
+         0.67
+        ],
+        [
+         0.97,
+         -36.45,
+         0.97
+        ],
+        [
+         1.29,
+         -35.02,
+         1.43
+        ],
+        [
+         1.45,
+         -34.91,
+         1.59
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -10.03,
+         -17.94,
+         14.81
+        ],
+        [
+         -10.87,
+         -19.28,
+         14.45
+        ],
+        [
+         -11.68,
+         -19.25,
+         14.34
+        ],
+        [
+         -11.66,
+         -17.99,
+         14.54
+        ],
+        [
+         -10.83,
+         -16.75,
+         14.86
+        ],
+        [
+         -10.01,
+         -16.67,
+         15.02
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -10.03,
+         -17.94,
+         14.81
+        ],
+        [
+         -10.87,
+         -19.28,
+         14.45
+        ],
+        [
+         -11.68,
+         -19.25,
+         14.34
+        ],
+        [
+         -11.66,
+         -17.99,
+         14.54
+        ],
+        [
+         -10.83,
+         -16.75,
+         14.86
+        ],
+        [
+         -10.01,
+         -16.67,
+         15.02
+        ]
+       ]
+      }
+     },
+     "e": {
+      "row": 2,
+      "frames": [
+       "idle_e_0",
+       "idle_e_1",
+       "idle_e_2",
+       "idle_e_3",
+       "idle_e_4",
+       "idle_e_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         2.08,
+         -21.38,
+         -8.75
+        ],
+        [
+         2.11,
+         -22.87,
+         -8.89
+        ],
+        [
+         2.13,
+         -23.15,
+         -8.89
+        ],
+        [
+         2.12,
+         -21.94,
+         -8.75
+        ],
+        [
+         2.08,
+         -20.44,
+         -8.61
+        ],
+        [
+         2.07,
+         -20.17,
+         -8.61
+        ]
+       ],
+       "hand_R": [
+        [
+         3.63,
+         -11.64,
+         8.25
+        ],
+        [
+         3.66,
+         -13.13,
+         8.11
+        ],
+        [
+         3.68,
+         -13.41,
+         8.11
+        ],
+        [
+         3.66,
+         -12.2,
+         8.25
+        ],
+        [
+         3.63,
+         -10.71,
+         8.39
+        ],
+        [
+         3.61,
+         -10.43,
+         8.39
+        ]
+       ],
+       "head_top": [
+        [
+         1.82,
+         -37.04,
+         0.0
+        ],
+        [
+         1.37,
+         -38.28,
+         -0.14
+        ],
+        [
+         1.14,
+         -38.27,
+         -0.14
+        ],
+        [
+         1.37,
+         -37.05,
+         0.0
+        ],
+        [
+         1.83,
+         -35.81,
+         0.14
+        ],
+        [
+         2.05,
+         -35.8,
+         0.14
+        ]
+       ],
+       "weapon_cast": [
+        [
+         7.05,
+         -19.76,
+         13.97
+        ],
+        [
+         6.25,
+         -20.88,
+         14.37
+        ],
+        [
+         5.55,
+         -20.63,
+         15.0
+        ],
+        [
+         5.61,
+         -19.38,
+         15.17
+        ],
+        [
+         6.38,
+         -18.37,
+         14.72
+        ],
+        [
+         7.12,
+         -18.5,
+         14.14
+        ]
+       ],
+       "weapon_hit": [
+        [
+         7.05,
+         -19.76,
+         13.97
+        ],
+        [
+         6.25,
+         -20.88,
+         14.37
+        ],
+        [
+         5.55,
+         -20.63,
+         15.0
+        ],
+        [
+         5.61,
+         -19.38,
+         15.17
+        ],
+        [
+         6.38,
+         -18.37,
+         14.72
+        ],
+        [
+         7.12,
+         -18.5,
+         14.14
+        ]
+       ]
+      }
+     },
+     "ne": {
+      "row": 3,
+      "frames": [
+       "idle_ne_0",
+       "idle_ne_1",
+       "idle_ne_2",
+       "idle_ne_3",
+       "idle_ne_4",
+       "idle_ne_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         -4.72,
+         -20.71,
+         -7.66
+        ],
+        [
+         -4.69,
+         -22.21,
+         -7.82
+        ],
+        [
+         -4.68,
+         -22.5,
+         -7.84
+        ],
+        [
+         -4.69,
+         -21.28,
+         -7.68
+        ],
+        [
+         -4.71,
+         -19.77,
+         -7.52
+        ],
+        [
+         -4.73,
+         -19.49,
+         -7.51
+        ]
+       ],
+       "hand_R": [
+        [
+         8.4,
+         -14.71,
+         3.27
+        ],
+        [
+         8.42,
+         -16.21,
+         3.1
+        ],
+        [
+         8.43,
+         -16.5,
+         3.09
+        ],
+        [
+         8.42,
+         -15.28,
+         3.24
+        ],
+        [
+         8.4,
+         -13.78,
+         3.41
+        ],
+        [
+         8.39,
+         -13.49,
+         3.42
+        ]
+       ],
+       "head_top": [
+        [
+         1.29,
+         -37.83,
+         -1.29
+        ],
+        [
+         0.97,
+         -38.87,
+         -1.11
+        ],
+        [
+         0.81,
+         -38.77,
+         -0.95
+        ],
+        [
+         0.97,
+         -37.65,
+         -0.97
+        ],
+        [
+         1.29,
+         -36.61,
+         -1.15
+        ],
+        [
+         1.45,
+         -36.69,
+         -1.31
+        ]
+       ],
+       "weapon_cast": [
+        [
+         12.89,
+         -24.65,
+         6.47
+        ],
+        [
+         12.69,
+         -25.43,
+         7.27
+        ],
+        [
+         12.62,
+         -24.92,
+         8.19
+        ],
+        [
+         12.68,
+         -23.71,
+         8.32
+        ],
+        [
+         12.82,
+         -23.0,
+         7.51
+        ],
+        [
+         12.96,
+         -23.44,
+         6.59
+        ]
+       ],
+       "weapon_hit": [
+        [
+         12.89,
+         -24.65,
+         6.47
+        ],
+        [
+         12.69,
+         -25.43,
+         7.27
+        ],
+        [
+         12.62,
+         -24.92,
+         8.19
+        ],
+        [
+         12.68,
+         -23.71,
+         8.32
+        ],
+        [
+         12.82,
+         -23.0,
+         7.51
+        ],
+        [
+         12.96,
+         -23.44,
+         6.59
+        ]
+       ]
+      }
+     },
+     "n": {
+      "row": 4,
+      "frames": [
+       "idle_n_0",
+       "idle_n_1",
+       "idle_n_2",
+       "idle_n_3",
+       "idle_n_4",
+       "idle_n_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         -8.75,
+         -17.27,
+         -2.08
+        ],
+        [
+         -8.75,
+         -18.78,
+         -2.25
+        ],
+        [
+         -8.75,
+         -19.07,
+         -2.27
+        ],
+        [
+         -8.75,
+         -17.85,
+         -2.12
+        ],
+        [
+         -8.75,
+         -16.34,
+         -1.94
+        ],
+        [
+         -8.75,
+         -16.05,
+         -1.92
+        ]
+       ],
+       "hand_R": [
+        [
+         8.25,
+         -18.95,
+         -3.63
+        ],
+        [
+         8.25,
+         -20.46,
+         -3.8
+        ],
+        [
+         8.25,
+         -20.75,
+         -3.82
+        ],
+        [
+         8.25,
+         -19.53,
+         -3.66
+        ],
+        [
+         8.25,
+         -18.02,
+         -3.49
+        ],
+        [
+         8.25,
+         -17.73,
+         -3.47
+        ]
+       ],
+       "head_top": [
+        [
+         0.0,
+         -38.16,
+         -1.82
+        ],
+        [
+         0.0,
+         -39.12,
+         -1.51
+        ],
+        [
+         0.0,
+         -38.98,
+         -1.29
+        ],
+        [
+         0.0,
+         -37.89,
+         -1.37
+        ],
+        [
+         0.0,
+         -36.94,
+         -1.68
+        ],
+        [
+         0.0,
+         -37.06,
+         -1.91
+        ]
+       ],
+       "weapon_cast": [
+        [
+         13.89,
+         -32.3,
+         -6.2
+        ],
+        [
+         14.43,
+         -33.22,
+         -5.54
+        ],
+        [
+         15.05,
+         -32.91,
+         -4.83
+        ],
+        [
+         15.08,
+         -31.72,
+         -4.75
+        ],
+        [
+         14.49,
+         -30.84,
+         -5.38
+        ],
+        [
+         13.92,
+         -31.11,
+         -6.12
+        ]
+       ],
+       "weapon_hit": [
+        [
+         13.89,
+         -32.3,
+         -6.2
+        ],
+        [
+         14.43,
+         -33.22,
+         -5.54
+        ],
+        [
+         15.05,
+         -32.91,
+         -4.83
+        ],
+        [
+         15.08,
+         -31.72,
+         -4.75
+        ],
+        [
+         14.49,
+         -30.84,
+         -5.38
+        ],
+        [
+         13.92,
+         -31.11,
+         -6.12
+        ]
+       ]
+      }
+     },
+     "nw": {
+      "row": 5,
+      "frames": [
+       "idle_nw_0",
+       "idle_nw_1",
+       "idle_nw_2",
+       "idle_nw_3",
+       "idle_nw_4",
+       "idle_nw_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         -7.66,
+         -13.09,
+         4.72
+        ],
+        [
+         -7.68,
+         -14.59,
+         4.55
+        ],
+        [
+         -7.69,
+         -14.88,
+         4.54
+        ],
+        [
+         -7.68,
+         -13.66,
+         4.69
+        ],
+        [
+         -7.66,
+         -12.16,
+         4.86
+        ],
+        [
+         -7.65,
+         -11.87,
+         4.87
+        ]
+       ],
+       "hand_R": [
+        [
+         3.27,
+         -21.89,
+         -8.4
+        ],
+        [
+         3.25,
+         -23.4,
+         -8.56
+        ],
+        [
+         3.23,
+         -23.68,
+         -8.58
+        ],
+        [
+         3.24,
+         -22.46,
+         -8.42
+        ],
+        [
+         3.27,
+         -20.96,
+         -8.26
+        ],
+        [
+         3.28,
+         -20.67,
+         -8.25
+        ]
+       ],
+       "head_top": [
+        [
+         -1.29,
+         -37.83,
+         -1.29
+        ],
+        [
+         -0.97,
+         -38.87,
+         -1.11
+        ],
+        [
+         -0.81,
+         -38.77,
+         -0.95
+        ],
+        [
+         -0.97,
+         -37.65,
+         -0.97
+        ],
+        [
+         -1.29,
+         -36.61,
+         -1.15
+        ],
+        [
+         -1.45,
+         -36.69,
+         -1.31
+        ]
+       ],
+       "weapon_cast": [
+        [
+         9.67,
+         -36.82,
+         -15.07
+        ],
+        [
+         10.55,
+         -37.91,
+         -14.99
+        ],
+        [
+         11.4,
+         -37.77,
+         -14.89
+        ],
+        [
+         11.38,
+         -36.58,
+         -14.81
+        ],
+        [
+         10.51,
+         -35.53,
+         -14.84
+        ],
+        [
+         9.65,
+         -35.63,
+         -14.99
+        ]
+       ],
+       "weapon_hit": [
+        [
+         9.67,
+         -36.82,
+         -15.07
+        ],
+        [
+         10.55,
+         -37.91,
+         -14.99
+        ],
+        [
+         11.4,
+         -37.77,
+         -14.89
+        ],
+        [
+         11.38,
+         -36.58,
+         -14.81
+        ],
+        [
+         10.51,
+         -35.53,
+         -14.84
+        ],
+        [
+         9.65,
+         -35.63,
+         -14.99
+        ]
+       ]
+      }
+     },
+     "w": {
+      "row": 6,
+      "frames": [
+       "idle_w_0",
+       "idle_w_1",
+       "idle_w_2",
+       "idle_w_3",
+       "idle_w_4",
+       "idle_w_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         -2.08,
+         -10.61,
+         8.75
+        ],
+        [
+         -2.11,
+         -12.1,
+         8.61
+        ],
+        [
+         -2.13,
+         -12.37,
+         8.61
+        ],
+        [
+         -2.12,
+         -11.16,
+         8.75
+        ],
+        [
+         -2.08,
+         -9.67,
+         8.89
+        ],
+        [
+         -2.07,
+         -9.39,
+         8.89
+        ]
+       ],
+       "hand_R": [
+        [
+         -3.63,
+         -21.8,
+         -8.25
+        ],
+        [
+         -3.66,
+         -23.29,
+         -8.39
+        ],
+        [
+         -3.68,
+         -23.57,
+         -8.39
+        ],
+        [
+         -3.66,
+         -22.36,
+         -8.25
+        ],
+        [
+         -3.63,
+         -20.86,
+         -8.11
+        ],
+        [
+         -3.61,
+         -20.59,
+         -8.11
+        ]
+       ],
+       "head_top": [
+        [
+         -1.82,
+         -37.04,
+         0.0
+        ],
+        [
+         -1.37,
+         -38.28,
+         -0.14
+        ],
+        [
+         -1.14,
+         -38.27,
+         -0.14
+        ],
+        [
+         -1.37,
+         -37.05,
+         0.0
+        ],
+        [
+         -1.83,
+         -35.81,
+         0.14
+        ],
+        [
+         -2.05,
+         -35.8,
+         0.14
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -8.26,
+         -37.89,
+         -17.07
+        ],
+        [
+         -7.49,
+         -39.62,
+         -17.72
+        ],
+        [
+         -6.81,
+         -40.07,
+         -18.31
+        ],
+        [
+         -6.87,
+         -38.85,
+         -18.19
+        ],
+        [
+         -7.61,
+         -37.17,
+         -17.49
+        ],
+        [
+         -8.32,
+         -36.66,
+         -16.95
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -8.26,
+         -37.89,
+         -17.07
+        ],
+        [
+         -7.49,
+         -39.62,
+         -17.72
+        ],
+        [
+         -6.81,
+         -40.07,
+         -18.31
+        ],
+        [
+         -6.87,
+         -38.85,
+         -18.19
+        ],
+        [
+         -7.61,
+         -37.17,
+         -17.49
+        ],
+        [
+         -8.32,
+         -36.66,
+         -16.95
+        ]
+       ]
+      }
+     },
+     "sw": {
+      "row": 7,
+      "frames": [
+       "idle_sw_0",
+       "idle_sw_1",
+       "idle_sw_2",
+       "idle_sw_3",
+       "idle_sw_4",
+       "idle_sw_5"
+      ],
+      "durations": [
+       160,
+       160,
+       160,
+       160,
+       160,
+       160
+      ],
+      "events": {},
+      "sockets": {
+       "hand_L": [
+        [
+         4.72,
+         -11.28,
+         7.66
+        ],
+        [
+         4.69,
+         -12.76,
+         7.54
+        ],
+        [
+         4.68,
+         -13.03,
+         7.55
+        ],
+        [
+         4.69,
+         -11.82,
+         7.68
+        ],
+        [
+         4.71,
+         -10.34,
+         7.8
+        ],
+        [
+         4.73,
+         -10.07,
+         7.79
+        ]
+       ],
+       "hand_R": [
+        [
+         -8.4,
+         -18.73,
+         -3.27
+        ],
+        [
+         -8.42,
+         -20.21,
+         -3.39
+        ],
+        [
+         -8.43,
+         -20.48,
+         -3.38
+        ],
+        [
+         -8.42,
+         -19.27,
+         -3.24
+        ],
+        [
+         -8.4,
+         -17.8,
+         -3.12
+        ],
+        [
+         -8.39,
+         -17.53,
+         -3.13
+        ]
+       ],
+       "head_top": [
+        [
+         -1.29,
+         -36.25,
+         1.29
+        ],
+        [
+         -0.97,
+         -37.68,
+         0.82
+        ],
+        [
+         -0.81,
+         -37.78,
+         0.67
+        ],
+        [
+         -0.97,
+         -36.45,
+         0.97
+        ],
+        [
+         -1.29,
+         -35.02,
+         1.43
+        ],
+        [
+         -1.45,
+         -34.91,
+         1.59
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -12.83,
+         -32.64,
+         -6.51
+        ],
+        [
+         -12.64,
+         -34.58,
+         -7.59
+        ],
+        [
+         -12.57,
+         -35.21,
+         -8.52
+        ],
+        [
+         -12.63,
+         -33.98,
+         -8.36
+        ],
+        [
+         -12.77,
+         -32.1,
+         -7.27
+        ],
+        [
+         -12.91,
+         -31.4,
+         -6.34
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -12.83,
+         -32.64,
+         -6.51
+        ],
+        [
+         -12.64,
+         -34.58,
+         -7.59
+        ],
+        [
+         -12.57,
+         -35.21,
+         -8.52
+        ],
+        [
+         -12.63,
+         -33.98,
+         -8.36
+        ],
+        [
+         -12.77,
+         -32.1,
+         -7.27
+        ],
+        [
+         -12.91,
+         -31.4,
+         -6.34
+        ]
+       ]
+      }
+     }
+    }
+   },
+   "walk": {
+    "loop": true,
+    "directions": {
+     "s": {
+      "row": 8,
+      "frames": [
+       "walk_s_0",
+       "walk_s_1",
+       "walk_s_2",
+       "walk_s_3",
+       "walk_s_4",
+       "walk_s_5",
+       "walk_s_6",
+       "walk_s_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         8.5,
+         -18.37,
+         -2.7
+        ],
+        [
+         8.67,
+         -18.08,
+         -1.25
+        ],
+        [
+         8.75,
+         -15.96,
+         2.37
+        ],
+        [
+         8.35,
+         -12.34,
+         6.2
+        ],
+        [
+         8.04,
+         -10.27,
+         7.81
+        ],
+        [
+         8.35,
+         -12.34,
+         6.2
+        ],
+        [
+         8.75,
+         -15.96,
+         2.37
+        ],
+        [
+         8.67,
+         -18.08,
+         -1.25
+        ]
+       ],
+       "hand_R": [
+        [
+         -7.43,
+         -10.13,
+         8.84
+        ],
+        [
+         -7.76,
+         -12.09,
+         7.39
+        ],
+        [
+         -8.25,
+         -15.43,
+         3.95
+        ],
+        [
+         -8.31,
+         -17.29,
+         0.71
+        ],
+        [
+         -8.21,
+         -17.47,
+         -0.59
+        ],
+        [
+         -8.31,
+         -17.29,
+         0.71
+        ],
+        [
+         -8.25,
+         -15.43,
+         3.95
+        ],
+        [
+         -7.76,
+         -12.09,
+         7.39
+        ]
+       ],
+       "head_top": [
+        [
+         0.31,
+         -34.01,
+         3.36
+        ],
+        [
+         0.22,
+         -35.01,
+         3.3
+        ],
+        [
+         0.0,
+         -36.0,
+         3.24
+        ],
+        [
+         -0.22,
+         -35.01,
+         3.3
+        ],
+        [
+         -0.31,
+         -34.01,
+         3.36
+        ],
+        [
+         -0.22,
+         -35.01,
+         3.3
+        ],
+        [
+         0.0,
+         -36.0,
+         3.24
+        ],
+        [
+         0.22,
+         -35.01,
+         3.3
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -11.63,
+         -21.54,
+         10.11
+        ],
+        [
+         -13.2,
+         -23.59,
+         8.07
+        ],
+        [
+         -14.24,
+         -26.47,
+         5.07
+        ],
+        [
+         -14.19,
+         -27.41,
+         3.17
+        ],
+        [
+         -13.88,
+         -26.67,
+         3.14
+        ],
+        [
+         -14.19,
+         -27.41,
+         3.17
+        ],
+        [
+         -14.24,
+         -26.47,
+         5.07
+        ],
+        [
+         -13.2,
+         -23.59,
+         8.07
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -11.63,
+         -21.54,
+         10.11
+        ],
+        [
+         -13.2,
+         -23.59,
+         8.07
+        ],
+        [
+         -14.24,
+         -26.47,
+         5.07
+        ],
+        [
+         -14.19,
+         -27.41,
+         3.17
+        ],
+        [
+         -13.88,
+         -26.67,
+         3.14
+        ],
+        [
+         -14.19,
+         -27.41,
+         3.17
+        ],
+        [
+         -14.24,
+         -26.47,
+         5.07
+        ],
+        [
+         -13.2,
+         -23.59,
+         8.07
+        ]
+       ]
+      }
+     },
+     "se": {
+      "row": 9,
+      "frames": [
+       "walk_se_0",
+       "walk_se_1",
+       "walk_se_2",
+       "walk_se_3",
+       "walk_se_4",
+       "walk_se_5",
+       "walk_se_6",
+       "walk_se_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         3.92,
+         -21.54,
+         -7.85
+        ],
+        [
+         5.12,
+         -21.6,
+         -6.96
+        ],
+        [
+         7.78,
+         -20.17,
+         -4.48
+        ],
+        [
+         10.16,
+         -17.06,
+         -1.46
+        ],
+        [
+         11.03,
+         -15.13,
+         -0.08
+        ],
+        [
+         10.16,
+         -17.06,
+         -1.46
+        ],
+        [
+         7.78,
+         -20.17,
+         -4.48
+        ],
+        [
+         5.12,
+         -21.6,
+         -6.96
+        ]
+       ],
+       "hand_R": [
+        [
+         0.82,
+         -8.44,
+         11.58
+        ],
+        [
+         -0.39,
+         -10.01,
+         10.77
+        ],
+        [
+         -3.12,
+         -12.53,
+         8.66
+        ],
+        [
+         -5.5,
+         -13.77,
+         6.43
+        ],
+        [
+         -6.4,
+         -13.75,
+         5.46
+        ],
+        [
+         -5.5,
+         -13.77,
+         6.43
+        ],
+        [
+         -3.12,
+         -12.53,
+         8.66
+        ],
+        [
+         -0.39,
+         -10.01,
+         10.77
+        ]
+       ],
+       "head_top": [
+        [
+         2.42,
+         -34.71,
+         2.23
+        ],
+        [
+         2.36,
+         -35.67,
+         2.23
+        ],
+        [
+         2.21,
+         -36.57,
+         2.32
+        ],
+        [
+         2.05,
+         -35.48,
+         2.54
+        ],
+        [
+         1.98,
+         -34.44,
+         2.67
+        ],
+        [
+         2.05,
+         -35.48,
+         2.54
+        ],
+        [
+         2.21,
+         -36.57,
+         2.32
+        ],
+        [
+         2.36,
+         -35.67,
+         2.23
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -4.65,
+         -15.43,
+         17.86
+        ],
+        [
+         -7.12,
+         -16.3,
+         17.29
+        ],
+        [
+         -10.09,
+         -18.37,
+         15.53
+        ],
+        [
+         -11.7,
+         -19.32,
+         13.87
+        ],
+        [
+         -11.71,
+         -18.95,
+         13.51
+        ],
+        [
+         -11.7,
+         -19.32,
+         13.87
+        ],
+        [
+         -10.09,
+         -18.37,
+         15.53
+        ],
+        [
+         -7.12,
+         -16.3,
+         17.29
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -4.65,
+         -15.43,
+         17.86
+        ],
+        [
+         -7.12,
+         -16.3,
+         17.29
+        ],
+        [
+         -10.09,
+         -18.37,
+         15.53
+        ],
+        [
+         -11.7,
+         -19.32,
+         13.87
+        ],
+        [
+         -11.71,
+         -18.95,
+         13.51
+        ],
+        [
+         -11.7,
+         -19.32,
+         13.87
+        ],
+        [
+         -10.09,
+         -18.37,
+         15.53
+        ],
+        [
+         -7.12,
+         -16.3,
+         17.29
+        ]
+       ]
+      }
+     },
+     "e": {
+      "row": 10,
+      "frames": [
+       "walk_e_0",
+       "walk_e_1",
+       "walk_e_2",
+       "walk_e_3",
+       "walk_e_4",
+       "walk_e_5",
+       "walk_e_6",
+       "walk_e_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -2.96,
+         -21.79,
+         -8.25
+        ],
+        [
+         -1.44,
+         -22.54,
+         -8.49
+        ],
+        [
+         2.25,
+         -22.73,
+         -8.64
+        ],
+        [
+         6.02,
+         -21.18,
+         -8.16
+        ],
+        [
+         7.56,
+         -19.87,
+         -7.78
+        ],
+        [
+         6.02,
+         -21.18,
+         -8.16
+        ],
+        [
+         2.25,
+         -22.73,
+         -8.64
+        ],
+        [
+         -1.44,
+         -22.54,
+         -8.49
+        ]
+       ],
+       "hand_R": [
+        [
+         8.59,
+         -10.84,
+         7.68
+        ],
+        [
+         7.21,
+         -11.75,
+         7.94
+        ],
+        [
+         3.83,
+         -12.71,
+         8.36
+        ],
+        [
+         0.52,
+         -12.5,
+         8.49
+        ],
+        [
+         -0.84,
+         -11.9,
+         8.46
+        ],
+        [
+         0.52,
+         -12.5,
+         8.49
+        ],
+        [
+         3.83,
+         -12.71,
+         8.36
+        ],
+        [
+         7.21,
+         -11.75,
+         7.94
+        ]
+       ],
+       "head_top": [
+        [
+         3.11,
+         -36.12,
+         -0.06
+        ],
+        [
+         3.12,
+         -37.06,
+         -0.04
+        ],
+        [
+         3.13,
+         -37.93,
+         0.11
+        ],
+        [
+         3.12,
+         -36.79,
+         0.4
+        ],
+        [
+         3.11,
+         -35.74,
+         0.56
+        ],
+        [
+         3.12,
+         -36.79,
+         0.4
+        ],
+        [
+         3.13,
+         -37.93,
+         0.11
+        ],
+        [
+         3.12,
+         -37.06,
+         -0.04
+        ]
+       ],
+       "weapon_cast": [
+        [
+         12.45,
+         -20.16,
+         11.94
+        ],
+        [
+         10.48,
+         -20.01,
+         13.53
+        ],
+        [
+         7.53,
+         -20.24,
+         14.65
+        ],
+        [
+         5.48,
+         -19.7,
+         14.81
+        ],
+        [
+         5.29,
+         -18.9,
+         14.6
+        ],
+        [
+         5.48,
+         -19.7,
+         14.81
+        ],
+        [
+         7.53,
+         -20.24,
+         14.65
+        ],
+        [
+         10.48,
+         -20.01,
+         13.53
+        ]
+       ],
+       "weapon_hit": [
+        [
+         12.45,
+         -20.16,
+         11.94
+        ],
+        [
+         10.48,
+         -20.01,
+         13.53
+        ],
+        [
+         7.53,
+         -20.24,
+         14.65
+        ],
+        [
+         5.48,
+         -19.7,
+         14.81
+        ],
+        [
+         5.29,
+         -18.9,
+         14.6
+        ],
+        [
+         5.48,
+         -19.7,
+         14.81
+        ],
+        [
+         7.53,
+         -20.24,
+         14.65
+        ],
+        [
+         10.48,
+         -20.01,
+         13.53
+        ]
+       ]
+      }
+     },
+     "ne": {
+      "row": 11,
+      "frames": [
+       "walk_ne_0",
+       "walk_ne_1",
+       "walk_ne_2",
+       "walk_ne_3",
+       "walk_ne_4",
+       "walk_ne_5",
+       "walk_ne_6",
+       "walk_ne_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -8.1,
+         -18.97,
+         -3.67
+        ],
+        [
+         -7.15,
+         -20.35,
+         -4.93
+        ],
+        [
+         -4.59,
+         -22.14,
+         -7.67
+        ],
+        [
+         -1.65,
+         -22.3,
+         -9.98
+        ],
+        [
+         -0.33,
+         -21.71,
+         -10.78
+        ],
+        [
+         -1.65,
+         -22.3,
+         -9.98
+        ],
+        [
+         -4.59,
+         -22.14,
+         -7.67
+        ],
+        [
+         -7.15,
+         -20.35,
+         -4.93
+        ]
+       ],
+       "hand_R": [
+        [
+         11.33,
+         -15.92,
+         -0.57
+        ],
+        [
+         10.58,
+         -16.29,
+         0.57
+        ],
+        [
+         8.54,
+         -15.87,
+         3.23
+        ],
+        [
+         6.25,
+         -14.22,
+         5.69
+        ],
+        [
+         5.21,
+         -13.01,
+         6.65
+        ],
+        [
+         6.25,
+         -14.22,
+         5.69
+        ],
+        [
+         8.54,
+         -15.87,
+         3.23
+        ],
+        [
+         10.58,
+         -16.29,
+         0.57
+        ]
+       ],
+       "head_top": [
+        [
+         1.98,
+         -37.42,
+         -2.17
+        ],
+        [
+         2.05,
+         -38.38,
+         -2.18
+        ],
+        [
+         2.21,
+         -39.29,
+         -2.1
+        ],
+        [
+         2.36,
+         -38.19,
+         -1.87
+        ],
+        [
+         2.42,
+         -37.15,
+         -1.73
+        ],
+        [
+         2.36,
+         -38.19,
+         -1.87
+        ],
+        [
+         2.21,
+         -39.29,
+         -2.1
+        ],
+        [
+         2.05,
+         -38.38,
+         -2.18
+        ]
+       ],
+       "weapon_cast": [
+        [
+         15.24,
+         -26.87,
+         1.46
+        ],
+        [
+         14.96,
+         -26.16,
+         3.9
+        ],
+        [
+         13.63,
+         -25.51,
+         6.63
+        ],
+        [
+         12.2,
+         -24.39,
+         8.07
+        ],
+        [
+         11.91,
+         -23.67,
+         7.99
+        ],
+        [
+         12.2,
+         -24.39,
+         8.07
+        ],
+        [
+         13.63,
+         -25.51,
+         6.63
+        ],
+        [
+         14.96,
+         -26.16,
+         3.9
+        ]
+       ],
+       "weapon_hit": [
+        [
+         15.24,
+         -26.87,
+         1.46
+        ],
+        [
+         14.96,
+         -26.16,
+         3.9
+        ],
+        [
+         13.63,
+         -25.51,
+         6.63
+        ],
+        [
+         12.2,
+         -24.39,
+         8.07
+        ],
+        [
+         11.91,
+         -23.67,
+         7.99
+        ],
+        [
+         12.2,
+         -24.39,
+         8.07
+        ],
+        [
+         13.63,
+         -25.51,
+         6.63
+        ],
+        [
+         14.96,
+         -26.16,
+         3.9
+        ]
+       ]
+      }
+     },
+     "n": {
+      "row": 12,
+      "frames": [
+       "walk_n_0",
+       "walk_n_1",
+       "walk_n_2",
+       "walk_n_3",
+       "walk_n_4",
+       "walk_n_5",
+       "walk_n_6",
+       "walk_n_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -8.5,
+         -14.73,
+         3.21
+        ],
+        [
+         -8.67,
+         -16.32,
+         1.62
+        ],
+        [
+         -8.75,
+         -18.74,
+         -2.14
+        ],
+        [
+         -8.35,
+         -19.75,
+         -5.84
+        ],
+        [
+         -8.04,
+         -19.58,
+         -7.31
+        ],
+        [
+         -8.35,
+         -19.75,
+         -5.84
+        ],
+        [
+         -8.75,
+         -18.74,
+         -2.14
+        ],
+        [
+         -8.67,
+         -16.32,
+         1.62
+        ]
+       ],
+       "hand_R": [
+        [
+         7.43,
+         -20.7,
+         -8.34
+        ],
+        [
+         7.76,
+         -20.96,
+         -7.03
+        ],
+        [
+         8.25,
+         -20.15,
+         -3.72
+        ],
+        [
+         8.31,
+         -17.94,
+         -0.34
+        ],
+        [
+         8.21,
+         -16.43,
+         1.09
+        ],
+        [
+         8.31,
+         -17.94,
+         -0.34
+        ],
+        [
+         8.25,
+         -20.15,
+         -3.72
+        ],
+        [
+         7.76,
+         -20.96,
+         -7.03
+        ]
+       ],
+       "head_top": [
+        [
+         -0.31,
+         -37.84,
+         -2.86
+        ],
+        [
+         -0.22,
+         -38.85,
+         -2.94
+        ],
+        [
+         0.0,
+         -39.85,
+         -3.01
+        ],
+        [
+         0.22,
+         -38.85,
+         -2.94
+        ],
+        [
+         0.31,
+         -37.84,
+         -2.86
+        ],
+        [
+         0.22,
+         -38.85,
+         -2.94
+        ],
+        [
+         0.0,
+         -39.85,
+         -3.01
+        ],
+        [
+         -0.22,
+         -38.85,
+         -2.94
+        ]
+       ],
+       "weapon_cast": [
+        [
+         11.68,
+         -34.61,
+         -11.34
+        ],
+        [
+         13.32,
+         -34.26,
+         -9.44
+        ],
+        [
+         14.46,
+         -33.45,
+         -6.56
+        ],
+        [
+         14.5,
+         -31.79,
+         -4.47
+        ],
+        [
+         14.21,
+         -30.78,
+         -4.25
+        ],
+        [
+         14.5,
+         -31.79,
+         -4.47
+        ],
+        [
+         14.46,
+         -33.45,
+         -6.56
+        ],
+        [
+         13.32,
+         -34.26,
+         -9.44
+        ]
+       ],
+       "weapon_hit": [
+        [
+         11.68,
+         -34.61,
+         -11.34
+        ],
+        [
+         13.32,
+         -34.26,
+         -9.44
+        ],
+        [
+         14.46,
+         -33.45,
+         -6.56
+        ],
+        [
+         14.5,
+         -31.79,
+         -4.47
+        ],
+        [
+         14.21,
+         -30.78,
+         -4.25
+        ],
+        [
+         14.5,
+         -31.79,
+         -4.47
+        ],
+        [
+         14.46,
+         -33.45,
+         -6.56
+        ],
+        [
+         13.32,
+         -34.26,
+         -9.44
+        ]
+       ]
+      }
+     },
+     "nw": {
+      "row": 13,
+      "frames": [
+       "walk_nw_0",
+       "walk_nw_1",
+       "walk_nw_2",
+       "walk_nw_3",
+       "walk_nw_4",
+       "walk_nw_5",
+       "walk_nw_6",
+       "walk_nw_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -3.92,
+         -11.57,
+         8.35
+        ],
+        [
+         -5.12,
+         -12.8,
+         7.33
+        ],
+        [
+         -7.78,
+         -14.52,
+         4.7
+        ],
+        [
+         -10.16,
+         -15.03,
+         1.83
+        ],
+        [
+         -11.03,
+         -14.72,
+         0.59
+        ],
+        [
+         -10.16,
+         -15.03,
+         1.83
+        ],
+        [
+         -7.78,
+         -14.52,
+         4.7
+        ],
+        [
+         -5.12,
+         -12.8,
+         7.33
+        ]
+       ],
+       "hand_R": [
+        [
+         -0.82,
+         -22.39,
+         -11.08
+        ],
+        [
+         0.39,
+         -23.04,
+         -10.4
+        ],
+        [
+         3.12,
+         -23.05,
+         -8.43
+        ],
+        [
+         5.5,
+         -21.46,
+         -6.06
+        ],
+        [
+         6.4,
+         -20.16,
+         -4.96
+        ],
+        [
+         5.5,
+         -21.46,
+         -6.06
+        ],
+        [
+         3.12,
+         -23.05,
+         -8.43
+        ],
+        [
+         0.39,
+         -23.04,
+         -10.4
+        ]
+       ],
+       "head_top": [
+        [
+         -2.42,
+         -37.15,
+         -1.73
+        ],
+        [
+         -2.36,
+         -38.19,
+         -1.87
+        ],
+        [
+         -2.21,
+         -39.29,
+         -2.1
+        ],
+        [
+         -2.05,
+         -38.38,
+         -2.18
+        ],
+        [
+         -1.98,
+         -37.42,
+         -2.17
+        ],
+        [
+         -2.05,
+         -38.38,
+         -2.18
+        ],
+        [
+         -2.21,
+         -39.29,
+         -2.1
+        ],
+        [
+         -2.36,
+         -38.19,
+         -1.87
+        ]
+       ],
+       "weapon_cast": [
+        [
+         4.24,
+         -37.7,
+         -17.54
+        ],
+        [
+         6.76,
+         -38.0,
+         -17.15
+        ],
+        [
+         9.73,
+         -38.01,
+         -15.6
+        ],
+        [
+         11.31,
+         -36.81,
+         -13.85
+        ],
+        [
+         11.28,
+         -35.89,
+         -13.38
+        ],
+        [
+         11.31,
+         -36.81,
+         -13.85
+        ],
+        [
+         9.73,
+         -38.01,
+         -15.6
+        ],
+        [
+         6.76,
+         -38.0,
+         -17.15
+        ]
+       ],
+       "weapon_hit": [
+        [
+         4.24,
+         -37.7,
+         -17.54
+        ],
+        [
+         6.76,
+         -38.0,
+         -17.15
+        ],
+        [
+         9.73,
+         -38.01,
+         -15.6
+        ],
+        [
+         11.31,
+         -36.81,
+         -13.85
+        ],
+        [
+         11.28,
+         -35.89,
+         -13.38
+        ],
+        [
+         11.31,
+         -36.81,
+         -13.85
+        ],
+        [
+         9.73,
+         -38.01,
+         -15.6
+        ],
+        [
+         6.76,
+         -38.0,
+         -17.15
+        ]
+       ]
+      }
+     },
+     "w": {
+      "row": 14,
+      "frames": [
+       "walk_w_0",
+       "walk_w_1",
+       "walk_w_2",
+       "walk_w_3",
+       "walk_w_4",
+       "walk_w_5",
+       "walk_w_6",
+       "walk_w_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         2.96,
+         -11.32,
+         8.75
+        ],
+        [
+         1.44,
+         -11.86,
+         8.85
+        ],
+        [
+         -2.25,
+         -11.96,
+         8.86
+        ],
+        [
+         -6.02,
+         -10.91,
+         8.53
+        ],
+        [
+         -7.56,
+         -9.98,
+         8.29
+        ],
+        [
+         -6.02,
+         -10.91,
+         8.53
+        ],
+        [
+         -2.25,
+         -11.96,
+         8.86
+        ],
+        [
+         1.44,
+         -11.86,
+         8.85
+        ]
+       ],
+       "hand_R": [
+        [
+         -8.59,
+         -19.99,
+         -7.18
+        ],
+        [
+         -7.21,
+         -21.3,
+         -7.58
+        ],
+        [
+         -3.83,
+         -22.87,
+         -8.14
+        ],
+        [
+         -0.52,
+         -22.73,
+         -8.13
+        ],
+        [
+         0.84,
+         -22.0,
+         -7.96
+        ],
+        [
+         -0.52,
+         -22.73,
+         -8.13
+        ],
+        [
+         -3.83,
+         -22.87,
+         -8.14
+        ],
+        [
+         -7.21,
+         -21.3,
+         -7.58
+        ]
+       ],
+       "head_top": [
+        [
+         -3.11,
+         -35.74,
+         0.56
+        ],
+        [
+         -3.12,
+         -36.79,
+         0.4
+        ],
+        [
+         -3.13,
+         -37.93,
+         0.11
+        ],
+        [
+         -3.12,
+         -37.06,
+         -0.04
+        ],
+        [
+         -3.11,
+         -36.12,
+         -0.06
+        ],
+        [
+         -3.12,
+         -37.06,
+         -0.04
+        ],
+        [
+         -3.13,
+         -37.93,
+         0.11
+        ],
+        [
+         -3.12,
+         -36.79,
+         0.4
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -13.97,
+         -35.63,
+         -14.49
+        ],
+        [
+         -11.89,
+         -37.36,
+         -16.19
+        ],
+        [
+         -8.67,
+         -38.95,
+         -17.49
+        ],
+        [
+         -6.32,
+         -38.49,
+         -17.57
+        ],
+        [
+         -5.97,
+         -37.36,
+         -17.26
+        ],
+        [
+         -6.32,
+         -38.49,
+         -17.57
+        ],
+        [
+         -8.67,
+         -38.95,
+         -17.49
+        ],
+        [
+         -11.89,
+         -37.36,
+         -16.19
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -13.97,
+         -35.63,
+         -14.49
+        ],
+        [
+         -11.89,
+         -37.36,
+         -16.19
+        ],
+        [
+         -8.67,
+         -38.95,
+         -17.49
+        ],
+        [
+         -6.32,
+         -38.49,
+         -17.57
+        ],
+        [
+         -5.97,
+         -37.36,
+         -17.26
+        ],
+        [
+         -6.32,
+         -38.49,
+         -17.57
+        ],
+        [
+         -8.67,
+         -38.95,
+         -17.49
+        ],
+        [
+         -11.89,
+         -37.36,
+         -16.19
+        ]
+       ]
+      }
+     },
+     "sw": {
+      "row": 15,
+      "frames": [
+       "walk_sw_0",
+       "walk_sw_1",
+       "walk_sw_2",
+       "walk_sw_3",
+       "walk_sw_4",
+       "walk_sw_5",
+       "walk_sw_6",
+       "walk_sw_7"
+      ],
+      "durations": [
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100,
+       100
+      ],
+      "events": {
+       "0": [
+        "step_l"
+       ],
+       "4": [
+        "step_r"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         8.1,
+         -14.14,
+         4.17
+        ],
+        [
+         7.15,
+         -14.05,
+         5.3
+        ],
+        [
+         4.59,
+         -12.56,
+         7.89
+        ],
+        [
+         1.65,
+         -9.79,
+         10.34
+        ],
+        [
+         0.33,
+         -8.13,
+         11.28
+        ],
+        [
+         1.65,
+         -9.79,
+         10.34
+        ],
+        [
+         4.59,
+         -12.56,
+         7.89
+        ],
+        [
+         7.15,
+         -14.05,
+         5.3
+        ]
+       ],
+       "hand_R": [
+        [
+         -11.33,
+         -14.91,
+         1.07
+        ],
+        [
+         -10.58,
+         -16.77,
+         -0.21
+        ],
+        [
+         -8.54,
+         -19.71,
+         -3.01
+        ],
+        [
+         -6.25,
+         -21.0,
+         -5.32
+        ],
+        [
+         -5.21,
+         -20.89,
+         -6.15
+        ],
+        [
+         -6.25,
+         -21.0,
+         -5.32
+        ],
+        [
+         -8.54,
+         -19.71,
+         -3.01
+        ],
+        [
+         -10.58,
+         -16.77,
+         -0.21
+        ]
+       ],
+       "head_top": [
+        [
+         -1.98,
+         -34.44,
+         2.67
+        ],
+        [
+         -2.05,
+         -35.48,
+         2.54
+        ],
+        [
+         -2.21,
+         -36.57,
+         2.32
+        ],
+        [
+         -2.36,
+         -35.67,
+         2.23
+        ],
+        [
+         -2.42,
+         -34.71,
+         2.23
+        ],
+        [
+         -2.36,
+         -35.67,
+         2.23
+        ],
+        [
+         -2.21,
+         -36.57,
+         2.32
+        ],
+        [
+         -2.05,
+         -35.48,
+         2.54
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -15.19,
+         -28.38,
+         -1.0
+        ],
+        [
+         -14.91,
+         -30.76,
+         -3.58
+        ],
+        [
+         -13.58,
+         -33.56,
+         -6.44
+        ],
+        [
+         -12.15,
+         -34.13,
+         -7.74
+        ],
+        [
+         -11.86,
+         -33.23,
+         -7.52
+        ],
+        [
+         -12.15,
+         -34.13,
+         -7.74
+        ],
+        [
+         -13.58,
+         -33.56,
+         -6.44
+        ],
+        [
+         -14.91,
+         -30.76,
+         -3.58
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -15.19,
+         -28.38,
+         -1.0
+        ],
+        [
+         -14.91,
+         -30.76,
+         -3.58
+        ],
+        [
+         -13.58,
+         -33.56,
+         -6.44
+        ],
+        [
+         -12.15,
+         -34.13,
+         -7.74
+        ],
+        [
+         -11.86,
+         -33.23,
+         -7.52
+        ],
+        [
+         -12.15,
+         -34.13,
+         -7.74
+        ],
+        [
+         -13.58,
+         -33.56,
+         -6.44
+        ],
+        [
+         -14.91,
+         -30.76,
+         -3.58
+        ]
+       ]
+      }
+     }
+    }
+   },
+   "attack": {
+    "loop": false,
+    "directions": {
+     "s": {
+      "row": 16,
+      "frames": [
+       "attack_s_0",
+       "attack_s_1",
+       "attack_s_2",
+       "attack_s_3",
+       "attack_s_4",
+       "attack_s_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         4.0,
+         -14.88,
+         6.7
+        ],
+        [
+         0.84,
+         -14.37,
+         7.79
+        ],
+        [
+         9.55,
+         -17.45,
+         -1.95
+        ],
+        [
+         8.84,
+         -18.28,
+         -3.84
+        ],
+        [
+         9.15,
+         -15.71,
+         -0.47
+        ],
+        [
+         8.83,
+         -15.2,
+         1.75
+        ]
+       ],
+       "hand_R": [
+        [
+         -8.49,
+         -24.66,
+         -4.89
+        ],
+        [
+         -6.06,
+         -28.59,
+         -9.06
+        ],
+        [
+         4.82,
+         -11.45,
+         9.48
+        ],
+        [
+         6.95,
+         -14.56,
+         5.12
+        ],
+        [
+         -1.53,
+         -12.17,
+         6.37
+        ],
+        [
+         -7.59,
+         -14.4,
+         4.2
+        ]
+       ],
+       "head_top": [
+        [
+         -0.03,
+         -36.51,
+         -0.22
+        ],
+        [
+         0.9,
+         -35.82,
+         -1.42
+        ],
+        [
+         2.6,
+         -33.15,
+         5.5
+        ],
+        [
+         2.9,
+         -32.91,
+         4.42
+        ],
+        [
+         0.63,
+         -34.11,
+         2.59
+        ],
+        [
+         0.06,
+         -36.06,
+         1.6
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -7.62,
+         -38.42,
+         -6.92
+        ],
+        [
+         4.55,
+         -23.1,
+         2.68
+        ],
+        [
+         -1.93,
+         -6.03,
+         23.83
+        ],
+        [
+         2.57,
+         -6.03,
+         20.8
+        ],
+        [
+         -14.18,
+         -17.13,
+         10.2
+        ],
+        [
+         -14.51,
+         -25.81,
+         4.26
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -7.62,
+         -38.42,
+         -6.92
+        ],
+        [
+         4.55,
+         -23.1,
+         2.68
+        ],
+        [
+         -1.93,
+         -6.03,
+         23.83
+        ],
+        [
+         2.57,
+         -6.03,
+         20.8
+        ],
+        [
+         -14.18,
+         -17.13,
+         10.2
+        ],
+        [
+         -14.51,
+         -25.81,
+         4.26
+        ]
+       ]
+      }
+     },
+     "se": {
+      "row": 17,
+      "frames": [
+       "attack_se_0",
+       "attack_se_1",
+       "attack_se_2",
+       "attack_se_3",
+       "attack_se_4",
+       "attack_se_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         7.78,
+         -17.89,
+         1.82
+        ],
+        [
+         6.14,
+         -16.15,
+         4.9
+        ],
+        [
+         6.29,
+         -21.23,
+         -8.1
+        ],
+        [
+         5.53,
+         -21.43,
+         -8.97
+        ],
+        [
+         7.14,
+         -19.61,
+         -6.8
+        ],
+        [
+         7.48,
+         -19.35,
+         -5.01
+        ]
+       ],
+       "hand_R": [
+        [
+         -9.24,
+         -20.14,
+         2.46
+        ],
+        [
+         -10.65,
+         -24.33,
+         -2.14
+        ],
+        [
+         11.03,
+         -15.24,
+         3.33
+        ],
+        [
+         10.54,
+         -18.51,
+         -1.29
+        ],
+        [
+         4.42,
+         -12.65,
+         5.58
+        ],
+        [
+         -2.39,
+         -11.86,
+         8.34
+        ]
+       ],
+       "head_top": [
+        [
+         0.04,
+         -36.51,
+         -0.23
+        ],
+        [
+         -0.33,
+         -35.97,
+         -1.66
+        ],
+        [
+         6.64,
+         -35.25,
+         2.09
+        ],
+        [
+         7.17,
+         -34.97,
+         1.08
+        ],
+        [
+         3.28,
+         -34.86,
+         1.38
+        ],
+        [
+         1.17,
+         -36.38,
+         1.08
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -13.02,
+         -33.12,
+         1.24
+        ],
+        [
+         4.77,
+         -27.47,
+         -1.93
+        ],
+        [
+         16.28,
+         -9.21,
+         18.36
+        ],
+        [
+         17.96,
+         -9.89,
+         13.26
+        ],
+        [
+         -3.54,
+         -9.66,
+         18.25
+        ],
+        [
+         -10.47,
+         -17.11,
+         15.26
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -13.02,
+         -33.12,
+         1.24
+        ],
+        [
+         4.77,
+         -27.47,
+         -1.93
+        ],
+        [
+         16.28,
+         -9.21,
+         18.36
+        ],
+        [
+         17.96,
+         -9.89,
+         13.26
+        ],
+        [
+         -3.54,
+         -9.66,
+         18.25
+        ],
+        [
+         -10.47,
+         -17.11,
+         15.26
+        ]
+       ]
+      }
+     },
+     "e": {
+      "row": 18,
+      "frames": [
+       "attack_e_0",
+       "attack_e_1",
+       "attack_e_2",
+       "attack_e_3",
+       "attack_e_4",
+       "attack_e_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         7.0,
+         -21.66,
+         -4.3
+        ],
+        [
+         7.84,
+         -19.71,
+         -0.89
+        ],
+        [
+         -0.07,
+         -23.05,
+         -9.43
+        ],
+        [
+         -1.84,
+         -22.35,
+         -8.84
+        ],
+        [
+         0.53,
+         -22.05,
+         -9.15
+        ],
+        [
+         1.75,
+         -21.7,
+         -8.83
+        ]
+       ],
+       "hand_R": [
+        [
+         -4.58,
+         -16.62,
+         8.19
+        ],
+        [
+         -9.0,
+         -19.32,
+         6.0
+        ],
+        [
+         11.36,
+         -21.18,
+         -4.7
+        ],
+        [
+         7.12,
+         -23.0,
+         -6.95
+        ],
+        [
+         7.37,
+         -16.14,
+         1.53
+        ],
+        [
+         4.2,
+         -12.32,
+         7.59
+        ]
+       ],
+       "head_top": [
+        [
+         0.08,
+         -36.54,
+         -0.28
+        ],
+        [
+         -1.37,
+         -35.53,
+         -0.95
+        ],
+        [
+         7.38,
+         -39.06,
+         -2.48
+        ],
+        [
+         6.42,
+         -38.42,
+         -2.9
+        ],
+        [
+         3.59,
+         -37.1,
+         -0.63
+        ],
+        [
+         1.6,
+         -37.08,
+         -0.06
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -4.86,
+         -29.31,
+         8.17
+        ],
+        [
+         3.63,
+         -27.17,
+         -3.52
+        ],
+        [
+         25.77,
+         -20.44,
+         1.96
+        ],
+        [
+         22.98,
+         -21.45,
+         -3.01
+        ],
+        [
+         13.17,
+         -15.59,
+         13.83
+        ],
+        [
+         6.86,
+         -19.2,
+         14.72
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -4.86,
+         -29.31,
+         8.17
+        ],
+        [
+         3.63,
+         -27.17,
+         -3.52
+        ],
+        [
+         25.77,
+         -20.44,
+         1.96
+        ],
+        [
+         22.98,
+         -21.45,
+         -3.01
+        ],
+        [
+         13.17,
+         -15.59,
+         13.83
+        ],
+        [
+         6.86,
+         -19.2,
+         14.72
+        ]
+       ]
+      }
+     },
+     "ne": {
+      "row": 19,
+      "frames": [
+       "attack_ne_0",
+       "attack_ne_1",
+       "attack_ne_2",
+       "attack_ne_3",
+       "attack_ne_4",
+       "attack_ne_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         2.12,
+         -23.99,
+         -8.08
+        ],
+        [
+         4.95,
+         -22.97,
+         -6.19
+        ],
+        [
+         -7.22,
+         -21.43,
+         -5.17
+        ],
+        [
+         -6.97,
+         -20.09,
+         -3.53
+        ],
+        [
+         -5.8,
+         -21.2,
+         -6.14
+        ],
+        [
+         -5.01,
+         -20.87,
+         -7.48
+        ]
+       ],
+       "hand_R": [
+        [
+         2.76,
+         -16.15,
+         8.94
+        ],
+        [
+         -2.09,
+         -16.49,
+         10.6
+        ],
+        [
+         4.21,
+         -25.39,
+         -9.91
+        ],
+        [
+         0.71,
+         -24.97,
+         -8.54
+        ],
+        [
+         6.58,
+         -20.19,
+         -3.42
+        ],
+        [
+         8.34,
+         -15.51,
+         2.39
+        ]
+       ],
+       "head_top": [
+        [
+         0.08,
+         -36.58,
+         -0.34
+        ],
+        [
+         -1.6,
+         -34.77,
+         0.28
+        ],
+        [
+         2.97,
+         -41.93,
+         -5.52
+        ],
+        [
+         3.08,
+         -40.82,
+         -5.17
+        ],
+        [
+         2.38,
+         -39.11,
+         -2.28
+        ],
+        [
+         1.08,
+         -37.77,
+         -1.17
+        ]
+       ],
+       "weapon_cast": [
+        [
+         0.76,
+         -28.16,
+         9.75
+        ],
+        [
+         -1.25,
+         -27.96,
+         -5.19
+        ],
+        [
+         19.13,
+         -32.1,
+         -15.28
+        ],
+        [
+         14.89,
+         -31.01,
+         -16.54
+        ],
+        [
+         18.27,
+         -23.7,
+         2.77
+        ],
+        [
+         13.33,
+         -23.99,
+         7.21
+        ]
+       ],
+       "weapon_hit": [
+        [
+         0.76,
+         -28.16,
+         9.75
+        ],
+        [
+         -1.25,
+         -27.96,
+         -5.19
+        ],
+        [
+         19.13,
+         -32.1,
+         -15.28
+        ],
+        [
+         14.89,
+         -31.01,
+         -16.54
+        ],
+        [
+         18.27,
+         -23.7,
+         2.77
+        ],
+        [
+         13.33,
+         -23.99,
+         7.21
+        ]
+       ]
+      }
+     },
+     "n": {
+      "row": 20,
+      "frames": [
+       "attack_n_0",
+       "attack_n_1",
+       "attack_n_2",
+       "attack_n_3",
+       "attack_n_4",
+       "attack_n_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -4.0,
+         -23.51,
+         -7.31
+        ],
+        [
+         -0.84,
+         -24.02,
+         -7.89
+        ],
+        [
+         -9.55,
+         -16.9,
+         2.19
+        ],
+        [
+         -8.84,
+         -15.54,
+         3.84
+        ],
+        [
+         -9.15,
+         -17.13,
+         0.47
+        ],
+        [
+         -8.83,
+         -17.35,
+         -1.75
+        ]
+       ],
+       "hand_R": [
+        [
+         8.49,
+         -19.02,
+         4.28
+        ],
+        [
+         6.06,
+         -17.51,
+         8.95
+        ],
+        [
+         -4.82,
+         -24.98,
+         -9.24
+        ],
+        [
+         -6.95,
+         -22.87,
+         -5.12
+        ],
+        [
+         1.53,
+         -22.01,
+         -6.37
+        ],
+        [
+         7.59,
+         -19.58,
+         -4.2
+        ]
+       ],
+       "head_top": [
+        [
+         0.03,
+         -36.61,
+         -0.38
+        ],
+        [
+         -0.9,
+         -34.13,
+         1.32
+        ],
+        [
+         -2.6,
+         -41.77,
+         -5.26
+        ],
+        [
+         -2.9,
+         -40.36,
+         -4.42
+        ],
+        [
+         -0.63,
+         -39.3,
+         -2.59
+        ],
+        [
+         -0.06,
+         -38.03,
+         -1.6
+        ]
+       ],
+       "weapon_cast": [
+        [
+         8.19,
+         -31.13,
+         5.14
+        ],
+        [
+         -3.84,
+         -27.01,
+         -3.39
+        ],
+        [
+         1.87,
+         -37.21,
+         -23.63
+        ],
+        [
+         -2.86,
+         -33.55,
+         -20.92
+        ],
+        [
+         13.96,
+         -32.31,
+         -11.52
+        ],
+        [
+         14.67,
+         -32.04,
+         -6.0
+        ]
+       ],
+       "weapon_hit": [
+        [
+         8.19,
+         -31.13,
+         5.14
+        ],
+        [
+         -3.84,
+         -27.01,
+         -3.39
+        ],
+        [
+         1.87,
+         -37.21,
+         -23.63
+        ],
+        [
+         -2.86,
+         -33.55,
+         -20.92
+        ],
+        [
+         13.96,
+         -32.31,
+         -11.52
+        ],
+        [
+         14.67,
+         -32.04,
+         -6.0
+        ]
+       ]
+      }
+     },
+     "nw": {
+      "row": 21,
+      "frames": [
+       "attack_nw_0",
+       "attack_nw_1",
+       "attack_nw_2",
+       "attack_nw_3",
+       "attack_nw_4",
+       "attack_nw_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -7.78,
+         -20.5,
+         -2.43
+        ],
+        [
+         -6.14,
+         -22.24,
+         -5.0
+        ],
+        [
+         -6.29,
+         -13.11,
+         8.34
+        ],
+        [
+         -5.53,
+         -12.39,
+         8.97
+        ],
+        [
+         -7.14,
+         -13.23,
+         6.8
+        ],
+        [
+         -7.48,
+         -13.19,
+         5.01
+        ]
+       ],
+       "hand_R": [
+        [
+         9.24,
+         -23.54,
+         -3.07
+        ],
+        [
+         10.65,
+         -21.77,
+         2.03
+        ],
+        [
+         -11.03,
+         -21.19,
+         -3.09
+        ],
+        [
+         -10.54,
+         -18.92,
+         1.29
+        ],
+        [
+         -4.42,
+         -21.53,
+         -5.58
+        ],
+        [
+         2.39,
+         -22.12,
+         -8.34
+        ]
+       ],
+       "head_top": [
+        [
+         -0.04,
+         -36.61,
+         -0.38
+        ],
+        [
+         0.33,
+         -33.99,
+         1.55
+        ],
+        [
+         -6.64,
+         -39.67,
+         -1.85
+        ],
+        [
+         -7.17,
+         -38.3,
+         -1.08
+        ],
+        [
+         -3.28,
+         -38.56,
+         -1.38
+        ],
+        [
+         -1.17,
+         -37.71,
+         -1.08
+        ]
+       ],
+       "weapon_cast": [
+        [
+         13.07,
+         -35.51,
+         -2.12
+        ],
+        [
+         -4.94,
+         -25.68,
+         1.69
+        ],
+        [
+         -15.84,
+         -33.51,
+         -18.83
+        ],
+        [
+         -17.8,
+         -28.0,
+         -13.74
+        ],
+        [
+         3.49,
+         -34.65,
+         -18.7
+        ],
+        [
+         10.18,
+         -36.57,
+         -15.53
+        ]
+       ],
+       "weapon_hit": [
+        [
+         13.07,
+         -35.51,
+         -2.12
+        ],
+        [
+         -4.94,
+         -25.68,
+         1.69
+        ],
+        [
+         -15.84,
+         -33.51,
+         -18.83
+        ],
+        [
+         -17.8,
+         -28.0,
+         -13.74
+        ],
+        [
+         3.49,
+         -34.65,
+         -18.7
+        ],
+        [
+         10.18,
+         -36.57,
+         -15.53
+        ]
+       ]
+      }
+     },
+     "w": {
+      "row": 22,
+      "frames": [
+       "attack_w_0",
+       "attack_w_1",
+       "attack_w_2",
+       "attack_w_3",
+       "attack_w_4",
+       "attack_w_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -7.0,
+         -16.73,
+         3.7
+        ],
+        [
+         -7.84,
+         -18.68,
+         0.79
+        ],
+        [
+         0.07,
+         -11.29,
+         9.67
+        ],
+        [
+         1.84,
+         -11.47,
+         8.84
+        ],
+        [
+         -0.53,
+         -10.79,
+         9.15
+        ],
+        [
+         -1.75,
+         -10.84,
+         8.83
+        ]
+       ],
+       "hand_R": [
+        [
+         4.58,
+         -27.07,
+         -8.79
+        ],
+        [
+         9.0,
+         -26.78,
+         -6.11
+        ],
+        [
+         -11.36,
+         -15.25,
+         4.94
+        ],
+        [
+         -7.12,
+         -14.44,
+         6.95
+        ],
+        [
+         -7.37,
+         -18.03,
+         -1.53
+        ],
+        [
+         -4.2,
+         -21.66,
+         -7.59
+        ]
+       ],
+       "head_top": [
+        [
+         -0.08,
+         -36.58,
+         -0.33
+        ],
+        [
+         1.37,
+         -34.43,
+         0.85
+        ],
+        [
+         -7.38,
+         -35.86,
+         2.72
+        ],
+        [
+         -6.42,
+         -34.85,
+         2.9
+        ],
+        [
+         -3.59,
+         -36.32,
+         0.63
+        ],
+        [
+         -1.6,
+         -37.01,
+         0.06
+        ]
+       ],
+       "weapon_cast": [
+        [
+         4.61,
+         -41.68,
+         -11.61
+        ],
+        [
+         -4.08,
+         -25.09,
+         2.7
+        ],
+        [
+         -26.81,
+         -22.76,
+         -2.7
+        ],
+        [
+         -23.95,
+         -16.92,
+         2.4
+        ],
+        [
+         -14.53,
+         -31.86,
+         -15.46
+        ],
+        [
+         -8.22,
+         -37.97,
+         -17.65
+        ]
+       ],
+       "weapon_hit": [
+        [
+         4.61,
+         -41.68,
+         -11.61
+        ],
+        [
+         -4.08,
+         -25.09,
+         2.7
+        ],
+        [
+         -26.81,
+         -22.76,
+         -2.7
+        ],
+        [
+         -23.95,
+         -16.92,
+         2.4
+        ],
+        [
+         -14.53,
+         -31.86,
+         -15.46
+        ],
+        [
+         -8.22,
+         -37.97,
+         -17.65
+        ]
+       ]
+      }
+     },
+     "sw": {
+      "row": 23,
+      "frames": [
+       "attack_sw_0",
+       "attack_sw_1",
+       "attack_sw_2",
+       "attack_sw_3",
+       "attack_sw_4",
+       "attack_sw_5"
+      ],
+      "durations": [
+       100,
+       150,
+       50,
+       90,
+       110,
+       110
+      ],
+      "events": {
+       "1": [
+        "windup"
+       ],
+       "2": [
+        "hit"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -2.12,
+         -14.41,
+         7.48
+        ],
+        [
+         -4.95,
+         -15.42,
+         6.09
+        ],
+        [
+         7.22,
+         -12.92,
+         5.41
+        ],
+        [
+         6.97,
+         -13.73,
+         3.53
+        ],
+        [
+         5.8,
+         -11.64,
+         6.14
+        ],
+        [
+         5.01,
+         -11.67,
+         7.48
+        ]
+       ],
+       "hand_R": [
+        [
+         -2.76,
+         -27.53,
+         -9.55
+        ],
+        [
+         2.09,
+         -29.61,
+         -10.7
+        ],
+        [
+         -4.21,
+         -11.04,
+         10.15
+        ],
+        [
+         -0.71,
+         -12.46,
+         8.54
+        ],
+        [
+         -6.58,
+         -13.98,
+         3.42
+        ],
+        [
+         -8.34,
+         -18.46,
+         -2.39
+        ]
+       ],
+       "head_top": [
+        [
+         -0.08,
+         -36.54,
+         -0.27
+        ],
+        [
+         1.6,
+         -35.18,
+         -0.39
+        ],
+        [
+         -2.97,
+         -32.99,
+         5.76
+        ],
+        [
+         -3.08,
+         -32.45,
+         5.17
+        ],
+        [
+         -2.38,
+         -34.31,
+         2.28
+        ],
+        [
+         -1.08,
+         -36.32,
+         1.17
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -0.71,
+         -40.54,
+         -10.37
+        ],
+        [
+         1.29,
+         -21.62,
+         5.09
+        ],
+        [
+         -19.13,
+         -11.14,
+         15.52
+        ],
+        [
+         -14.89,
+         -8.67,
+         16.52
+        ],
+        [
+         -18.24,
+         -25.14,
+         -2.81
+        ],
+        [
+         -13.28,
+         -32.89,
+         -7.25
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -0.71,
+         -40.54,
+         -10.37
+        ],
+        [
+         1.29,
+         -21.62,
+         5.09
+        ],
+        [
+         -19.13,
+         -11.14,
+         15.52
+        ],
+        [
+         -14.89,
+         -8.67,
+         16.52
+        ],
+        [
+         -18.24,
+         -25.14,
+         -2.81
+        ],
+        [
+         -13.28,
+         -32.89,
+         -7.25
+        ]
+       ]
+      }
+     }
+    }
+   },
+   "dodge": {
+    "loop": false,
+    "directions": {
+     "s": {
+      "row": 24,
+      "frames": [
+       "dodge_s_0",
+       "dodge_s_1",
+       "dodge_s_2",
+       "dodge_s_3",
+       "dodge_s_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         6.0,
+         -11.93,
+         7.26
+        ],
+        [
+         7.17,
+         -9.02,
+         7.94
+        ],
+        [
+         7.08,
+         -9.9,
+         6.9
+        ],
+        [
+         7.29,
+         -11.12,
+         4.52
+        ],
+        [
+         8.5,
+         -14.77,
+         2.53
+        ]
+       ],
+       "hand_R": [
+        [
+         -9.5,
+         -16.33,
+         -0.85
+        ],
+        [
+         -10.43,
+         -15.92,
+         -0.85
+        ],
+        [
+         -9.82,
+         -15.39,
+         -1.2
+        ],
+        [
+         -8.65,
+         -12.42,
+         1.86
+        ],
+        [
+         -8.25,
+         -15.0,
+         3.08
+        ]
+       ],
+       "head_top": [
+        [
+         0.0,
+         -30.69,
+         5.43
+        ],
+        [
+         1.57,
+         -29.04,
+         7.98
+        ],
+        [
+         1.06,
+         -29.34,
+         7.24
+        ],
+        [
+         0.23,
+         -30.45,
+         3.74
+        ],
+        [
+         0.0,
+         -35.51,
+         1.89
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -12.52,
+         -24.59,
+         4.6
+        ],
+        [
+         -8.06,
+         -14.02,
+         12.68
+        ],
+        [
+         -9.18,
+         -15.42,
+         11.38
+        ],
+        [
+         -13.7,
+         -22.36,
+         4.85
+        ],
+        [
+         -14.65,
+         -26.49,
+         3.3
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -12.52,
+         -24.59,
+         4.6
+        ],
+        [
+         -8.06,
+         -14.02,
+         12.68
+        ],
+        [
+         -9.18,
+         -15.42,
+         11.38
+        ],
+        [
+         -13.7,
+         -22.36,
+         4.85
+        ],
+        [
+         -14.65,
+         -26.49,
+         3.3
+        ]
+       ]
+      }
+     },
+     "se": {
+      "row": 25,
+      "frames": [
+       "dodge_se_0",
+       "dodge_se_1",
+       "dodge_se_2",
+       "dodge_se_3",
+       "dodge_se_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         9.5,
+         -15.88,
+         0.84
+        ],
+        [
+         12.5,
+         -14.52,
+         0.62
+        ],
+        [
+         12.75,
+         -15.19,
+         -0.08
+        ],
+        [
+         10.39,
+         -16.12,
+         -1.97
+        ],
+        [
+         8.89,
+         -18.95,
+         -4.26
+        ]
+       ],
+       "hand_R": [
+        [
+         -7.19,
+         -12.07,
+         6.07
+        ],
+        [
+         -6.15,
+         -12.18,
+         6.84
+        ],
+        [
+         -4.93,
+         -11.86,
+         6.15
+        ],
+        [
+         -2.77,
+         -10.0,
+         7.41
+        ],
+        [
+         -2.57,
+         -11.98,
+         7.98
+        ]
+       ],
+       "head_top": [
+        [
+         3.96,
+         -31.7,
+         3.79
+        ],
+        [
+         8.57,
+         -32.11,
+         4.61
+        ],
+        [
+         8.73,
+         -32.07,
+         4.42
+        ],
+        [
+         4.84,
+         -32.23,
+         2.47
+        ],
+        [
+         2.43,
+         -35.88,
+         1.3
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -7.94,
+         -18.82,
+         13.34
+        ],
+        [
+         3.42,
+         -13.23,
+         16.25
+        ],
+        [
+         2.25,
+         -13.71,
+         16.19
+        ],
+        [
+         -7.36,
+         -15.97,
+         14.92
+        ],
+        [
+         -10.34,
+         -17.78,
+         14.53
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -7.94,
+         -18.82,
+         13.34
+        ],
+        [
+         3.42,
+         -13.23,
+         16.25
+        ],
+        [
+         2.25,
+         -13.71,
+         16.19
+        ],
+        [
+         -7.36,
+         -15.97,
+         14.92
+        ],
+        [
+         -10.34,
+         -17.78,
+         14.53
+        ]
+       ]
+      }
+     },
+     "e": {
+      "row": 26,
+      "frames": [
+       "dodge_e_0",
+       "dodge_e_1",
+       "dodge_e_2",
+       "dodge_e_3",
+       "dodge_e_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         7.43,
+         -20.2,
+         -6.17
+        ],
+        [
+         10.69,
+         -20.16,
+         -6.92
+        ],
+        [
+         10.7,
+         -20.39,
+         -6.89
+        ],
+        [
+         7.57,
+         -20.42,
+         -7.34
+        ],
+        [
+         3.65,
+         -21.64,
+         -8.62
+        ]
+       ],
+       "hand_R": [
+        [
+         -0.67,
+         -10.06,
+         9.33
+        ],
+        [
+         1.89,
+         -10.82,
+         10.68
+        ],
+        [
+         2.61,
+         -10.49,
+         10.01
+        ],
+        [
+         4.91,
+         -10.27,
+         8.6
+        ],
+        [
+         4.2,
+         -11.89,
+         8.13
+        ]
+       ],
+       "head_top": [
+        [
+         5.6,
+         -34.14,
+         -0.17
+        ],
+        [
+         10.73,
+         -36.76,
+         -1.31
+        ],
+        [
+         11.04,
+         -36.33,
+         -0.87
+        ],
+        [
+         6.79,
+         -34.92,
+         -0.28
+        ],
+        [
+         3.02,
+         -36.76,
+         -0.12
+        ]
+       ],
+       "weapon_cast": [
+        [
+         6.44,
+         -19.1,
+         12.61
+        ],
+        [
+         16.24,
+         -17.51,
+         8.57
+        ],
+        [
+         16.26,
+         -17.42,
+         9.58
+        ],
+        [
+         10.18,
+         -18.39,
+         13.8
+        ],
+        [
+         7.0,
+         -19.17,
+         14.84
+        ]
+       ],
+       "weapon_hit": [
+        [
+         6.44,
+         -19.1,
+         12.61
+        ],
+        [
+         16.24,
+         -17.51,
+         8.57
+        ],
+        [
+         16.26,
+         -17.42,
+         9.58
+        ],
+        [
+         10.18,
+         -18.39,
+         13.8
+        ],
+        [
+         7.0,
+         -19.17,
+         14.84
+        ]
+       ]
+      }
+     },
+     "ne": {
+      "row": 27,
+      "frames": [
+       "dodge_ne_0",
+       "dodge_ne_1",
+       "dodge_ne_2",
+       "dodge_ne_3",
+       "dodge_ne_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         1.01,
+         -22.35,
+         -9.67
+        ],
+        [
+         2.36,
+         -24.22,
+         -10.25
+        ],
+        [
+         2.73,
+         -24.03,
+         -9.56
+        ],
+        [
+         0.08,
+         -22.1,
+         -8.44
+        ],
+        [
+         -3.14,
+         -21.26,
+         -8.01
+        ]
+       ],
+       "hand_R": [
+        [
+         6.24,
+         -11.48,
+         7.02
+        ],
+        [
+         8.59,
+         -14.22,
+         8.41
+        ],
+        [
+         8.96,
+         -13.65,
+         8.12
+        ],
+        [
+         9.47,
+         -13.66,
+         4.72
+        ],
+        [
+         9.1,
+         -14.77,
+         3.45
+        ]
+       ],
+       "head_top": [
+        [
+         3.96,
+         -36.58,
+         -4.13
+        ],
+        [
+         6.36,
+         -41.84,
+         -6.32
+        ],
+        [
+         7.23,
+         -41.21,
+         -5.54
+        ],
+        [
+         4.52,
+         -37.53,
+         -2.9
+        ],
+        [
+         2.43,
+         -37.63,
+         -1.55
+        ]
+       ],
+       "weapon_cast": [
+        [
+         12.26,
+         -24.16,
+         5.28
+        ],
+        [
+         16.51,
+         -27.55,
+         -2.85
+        ],
+        [
+         17.42,
+         -27.17,
+         -1.25
+        ],
+        [
+         15.2,
+         -24.56,
+         6.13
+        ],
+        [
+         13.83,
+         -23.73,
+         7.78
+        ]
+       ],
+       "weapon_hit": [
+        [
+         12.26,
+         -24.16,
+         5.28
+        ],
+        [
+         16.51,
+         -27.55,
+         -2.85
+        ],
+        [
+         17.42,
+         -27.17,
+         -1.25
+        ],
+        [
+         15.2,
+         -24.56,
+         6.13
+        ],
+        [
+         13.83,
+         -23.73,
+         7.78
+        ]
+       ]
+      }
+     },
+     "n": {
+      "row": 28,
+      "frames": [
+       "dodge_n_0",
+       "dodge_n_1",
+       "dodge_n_2",
+       "dodge_n_3",
+       "dodge_n_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -6.0,
+         -21.08,
+         -7.61
+        ],
+        [
+         -7.17,
+         -22.48,
+         -7.43
+        ],
+        [
+         -7.08,
+         -23.15,
+         -6.51
+        ],
+        [
+         -7.29,
+         -20.75,
+         -4.62
+        ],
+        [
+         -8.5,
+         -18.04,
+         -2.77
+        ]
+       ],
+       "hand_R": [
+        [
+         9.5,
+         -15.5,
+         0.5
+        ],
+        [
+         10.43,
+         -18.56,
+         1.36
+        ],
+        [
+         9.82,
+         -18.67,
+         1.58
+        ],
+        [
+         8.65,
+         -18.77,
+         -1.96
+        ],
+        [
+         8.25,
+         -18.94,
+         -3.32
+        ]
+       ],
+       "head_top": [
+        [
+         0.0,
+         -37.59,
+         -5.77
+        ],
+        [
+         -1.57,
+         -42.56,
+         -7.48
+        ],
+        [
+         -1.06,
+         -43.01,
+         -6.85
+        ],
+        [
+         -0.23,
+         -39.12,
+         -3.85
+        ],
+        [
+         0.0,
+         -38.0,
+         -2.14
+        ]
+       ],
+       "weapon_cast": [
+        [
+         12.7,
+         -30.81,
+         -6.07
+        ],
+        [
+         8.23,
+         -32.98,
+         -12.73
+        ],
+        [
+         9.31,
+         -33.92,
+         -11.73
+        ],
+        [
+         13.81,
+         -33.05,
+         -6.48
+        ],
+        [
+         14.87,
+         -31.66,
+         -5.27
+        ]
+       ],
+       "weapon_hit": [
+        [
+         12.7,
+         -30.81,
+         -6.07
+        ],
+        [
+         8.23,
+         -32.98,
+         -12.73
+        ],
+        [
+         9.31,
+         -33.92,
+         -11.73
+        ],
+        [
+         13.81,
+         -33.05,
+         -6.48
+        ],
+        [
+         14.87,
+         -31.66,
+         -5.27
+        ]
+       ]
+      }
+     },
+     "nw": {
+      "row": 29,
+      "frames": [
+       "dodge_nw_0",
+       "dodge_nw_1",
+       "dodge_nw_2",
+       "dodge_nw_3",
+       "dodge_nw_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -9.5,
+         -17.13,
+         -1.19
+        ],
+        [
+         -12.5,
+         -17.97,
+         -0.11
+        ],
+        [
+         -12.75,
+         -17.86,
+         0.46
+        ],
+        [
+         -10.39,
+         -15.75,
+         1.87
+        ],
+        [
+         -8.89,
+         -13.86,
+         4.01
+        ]
+       ],
+       "hand_R": [
+        [
+         7.19,
+         -19.75,
+         -6.41
+        ],
+        [
+         6.15,
+         -23.3,
+         -6.34
+        ],
+        [
+         4.93,
+         -22.2,
+         -5.77
+        ],
+        [
+         2.77,
+         -21.19,
+         -7.52
+        ],
+        [
+         2.57,
+         -21.95,
+         -8.22
+        ]
+       ],
+       "head_top": [
+        [
+         -3.96,
+         -36.58,
+         -4.13
+        ],
+        [
+         -8.57,
+         -40.48,
+         -4.11
+        ],
+        [
+         -8.73,
+         -40.28,
+         -4.04
+        ],
+        [
+         -4.84,
+         -37.34,
+         -2.57
+        ],
+        [
+         -2.43,
+         -37.63,
+         -1.55
+        ]
+       ],
+       "weapon_cast": [
+        [
+         7.94,
+         -35.87,
+         -14.14
+        ],
+        [
+         -3.42,
+         -36.27,
+         -16.29
+        ],
+        [
+         -2.35,
+         -36.71,
+         -16.29
+        ],
+        [
+         7.07,
+         -36.94,
+         -15.35
+        ],
+        [
+         10.03,
+         -36.49,
+         -15.05
+        ]
+       ],
+       "weapon_hit": [
+        [
+         7.94,
+         -35.87,
+         -14.14
+        ],
+        [
+         -3.42,
+         -36.27,
+         -16.29
+        ],
+        [
+         -2.35,
+         -36.71,
+         -16.29
+        ],
+        [
+         7.07,
+         -36.94,
+         -15.35
+        ],
+        [
+         10.03,
+         -36.49,
+         -15.05
+        ]
+       ]
+      }
+     },
+     "w": {
+      "row": 30,
+      "frames": [
+       "dodge_w_0",
+       "dodge_w_1",
+       "dodge_w_2",
+       "dodge_w_3",
+       "dodge_w_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -7.43,
+         -12.81,
+         5.83
+        ],
+        [
+         -10.69,
+         -11.34,
+         7.42
+        ],
+        [
+         -10.7,
+         -11.67,
+         7.27
+        ],
+        [
+         -7.57,
+         -11.45,
+         7.24
+        ],
+        [
+         -3.65,
+         -11.17,
+         8.38
+        ]
+       ],
+       "hand_R": [
+        [
+         0.67,
+         -21.76,
+         -9.67
+        ],
+        [
+         -1.89,
+         -23.66,
+         -10.18
+        ],
+        [
+         -2.61,
+         -22.58,
+         -9.63
+        ],
+        [
+         -4.91,
+         -20.92,
+         -8.7
+        ],
+        [
+         -4.2,
+         -22.05,
+         -8.37
+        ]
+       ],
+       "head_top": [
+        [
+         -5.6,
+         -34.14,
+         -0.17
+        ],
+        [
+         -10.73,
+         -34.83,
+         1.82
+        ],
+        [
+         -11.04,
+         -35.02,
+         1.26
+        ],
+        [
+         -6.79,
+         -34.64,
+         0.18
+        ],
+        [
+         -3.02,
+         -36.76,
+         -0.12
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -7.31,
+         -35.78,
+         -15.43
+        ],
+        [
+         -17.16,
+         -28.63,
+         -10.28
+        ],
+        [
+         -17.11,
+         -29.84,
+         -11.61
+        ],
+        [
+         -11.36,
+         -36.22,
+         -16.69
+        ],
+        [
+         -8.21,
+         -38.36,
+         -18.11
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -7.31,
+         -35.78,
+         -15.43
+        ],
+        [
+         -17.16,
+         -28.63,
+         -10.28
+        ],
+        [
+         -17.11,
+         -29.84,
+         -11.61
+        ],
+        [
+         -11.36,
+         -36.22,
+         -16.69
+        ],
+        [
+         -8.21,
+         -38.36,
+         -18.11
+        ]
+       ]
+      }
+     },
+     "sw": {
+      "row": 31,
+      "frames": [
+       "dodge_sw_0",
+       "dodge_sw_1",
+       "dodge_sw_2",
+       "dodge_sw_3",
+       "dodge_sw_4"
+      ],
+      "durations": [
+       50,
+       65,
+       75,
+       90,
+       100
+      ],
+      "events": {
+       "0": [
+        "dodge_start"
+       ],
+       "1": [
+        "evade"
+       ],
+       "3": [
+        "land"
+       ]
+      },
+      "sockets": {
+       "hand_L": [
+        [
+         -1.01,
+         -10.65,
+         9.33
+        ],
+        [
+         -2.36,
+         -8.28,
+         10.76
+        ],
+        [
+         -2.73,
+         -9.02,
+         9.94
+        ],
+        [
+         -0.08,
+         -9.77,
+         8.33
+        ],
+        [
+         3.14,
+         -11.55,
+         7.76
+        ]
+       ],
+       "hand_R": [
+        [
+         -6.24,
+         -20.34,
+         -7.37
+        ],
+        [
+         -8.59,
+         -21.26,
+         -7.9
+        ],
+        [
+         -8.96,
+         -20.41,
+         -7.74
+        ],
+        [
+         -9.47,
+         -17.53,
+         -4.82
+        ],
+        [
+         -9.1,
+         -19.17,
+         -3.69
+        ]
+       ],
+       "head_top": [
+        [
+         -3.96,
+         -31.7,
+         3.79
+        ],
+        [
+         -6.36,
+         -30.75,
+         6.82
+        ],
+        [
+         -7.23,
+         -31.14,
+         5.93
+        ],
+        [
+         -4.52,
+         -32.03,
+         2.79
+        ],
+        [
+         -2.43,
+         -35.88,
+         1.3
+        ]
+       ],
+       "weapon_cast": [
+        [
+         -12.23,
+         -30.9,
+         -5.65
+        ],
+        [
+         -16.49,
+         -20.77,
+         3.34
+        ],
+        [
+         -17.4,
+         -22.43,
+         1.61
+        ],
+        [
+         -15.16,
+         -30.2,
+         -6.27
+        ],
+        [
+         -13.78,
+         -33.49,
+         -8.06
+        ]
+       ],
+       "weapon_hit": [
+        [
+         -12.23,
+         -30.9,
+         -5.65
+        ],
+        [
+         -16.49,
+         -20.77,
+         3.34
+        ],
+        [
+         -17.4,
+         -22.43,
+         1.61
+        ],
+        [
+         -15.16,
+         -30.2,
+         -6.27
+        ],
+        [
+         -13.78,
+         -33.49,
+         -8.06
+        ]
+       ]
+      }
+     }
+    }
+   }
+  },
+  "sockets": [
+   "hand_L",
+   "hand_R",
+   "head_top",
+   "weapon_cast",
+   "weapon_hit"
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+spritekiln: 1
+kit: weapon_staff
+license: CC0-1.0
+summary: Two-handed arcane staff with glowing cyan crystal head (emissive map), gold cradle prongs, and direction cheats
+host: base_humanoid
+at: wrist_R
+params:
+  length: 0.78       # fist to crystal tip (comfortably clears 64px left/right edges on horizontal strikes)
+  butt: 0.56         # fist to lower butt
+  thick: 0.072       # wooden shaft thickness (>= 1.5px at scale 0.04)
+  crystal_r: 0.095   # glowing crystal size
+  cheat: 0.35        # per-direction visibility cheat so crystal & staff never hide behind torso
+
+host_channels:
+  weapon_pitch: 0
+  weapon_roll: 0
+
+materials:
+  wood:  {ramp: wood, finish: matte, bands: [2, 5]}
+  gold:  {ramp: gold, finish: metal, edge_highlight: true}
+  magic: {ramp: magic, emissive: true, band: 4, glow: {color: "#38c0ff", mix: 0.60, radius: 1}}
+
+bones:
+  # Upright arcane staff angled slightly forward & outward; direction cheats attenuate during attack (`weapon_pitch`) so e/w strikes never clip 64px frame edges
+  staff:
+    parent: at
+    pos: "[-0.14*cheat*pulse(yaw, -135, 45) - 0.14*cheat*pulse(yaw, -90, 45), 0.10*cheat*pulse(yaw, -90, 45), 0.035 + 0.16*cheat*pulse(yaw, -90, 45)*(1 - clamp(abs(weapon_pitch), 0, 1))]"
+    rot: "[-0.68 + weapon_pitch*0.42 + (0.45*cheat*pulse(yaw, 90, 50) + 0.30*cheat*pulse(yaw, 180, 45) + 0.45*cheat*pulse(yaw, -90, 45))*(1 - clamp(abs(weapon_pitch), 0, 1)),
+           weapon_roll*0.4,
+           0.22 + (cheat*pulse(yaw, 45, 42) + 0.65*cheat*pulse(yaw, -135, 45) + 0.42*cheat*pulse(yaw, -90, 45))*(1 - clamp(abs(weapon_pitch), 0, 1))]"
+  head_mount:
+    parent: staff
+    pos: "[0, length - crystal_r*2 - 0.04, 0]"
+
+parts:
+  shaft:
+    material: wood
+    space: staff
+    priority: 2
+    min_cover: 2
+    prims:
+      - cone: {a: "[0, -butt, 0]", b: "[0, length - crystal_r*2 - 0.02, 0]", r: "[thick*0.42, thick*0.52]"}
+  ferrule:
+    material: gold
+    space: head_mount
+    priority: 2
+    prims:
+      - cylinder: {a: [0, -0.13, 0], b: [0, -0.02, 0], r: "thick*0.55 + 0.026", round: 0.008}
+      - torus: {c: [0, 0.01, 0], R: "crystal_r*1.12", r: 0.024, rot: [1.5708, 0, 0]}
+  cradle:
+    material: gold
+    space: head_mount
+    blend: 0.015
+    prims:
+      # Twin curved gold prongs framing the glowing crystal
+      - tube: {pts: [[0.03, -0.02, 0], "[crystal_r + 0.06, crystal_r*0.9, 0]", "[crystal_r*0.55, crystal_r*2.1, 0]"], r: [0.028, 0.018]}
+      - tube: {pts: [[-0.03, -0.02, 0], "[-crystal_r - 0.06, crystal_r*0.9, 0]", "[-crystal_r*0.55, crystal_r*2.1, 0]"], r: [0.028, 0.018]}
+  crystal:
+    material: magic
+    space: head_mount
+    priority: 3
+    min_cover: 2
+    prims:
+      # Faceted diamond-shaped glowing crystal (emissive map target)
+      - revolve:
+          c: "[0, crystal_r + 0.02, 0]"
+          profile:
+            polygon:
+              - "[0, crystal_r*1.35]"
+              - "[crystal_r*0.88, 0.0]"
+              - "[0, -crystal_r*1.05]"
+              - "[-crystal_r*0.88, 0.0]"
+            round: 0.008
+
+sockets:
+  cast: {bone: head_mount, offset: "[0, crystal_r + 0.02, 0]"}
+  hit:  {bone: head_mount, offset: "[0, crystal_r + 0.02, 0]"}

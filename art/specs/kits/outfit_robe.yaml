@@ -1,0 +1,123 @@
+spritekiln: 1
+kit: outfit_robe
+license: CC0-1.0
+summary: Mage robe outfit with long royal-blue robe, ivory stole & gold hem trim, shoulder mantle, and tilted wide-brim wizard hat
+host: base_humanoid
+at: pelvis
+params:
+  hat: true          # include wide-brim pointed wizard hat on host head bone
+  brim: 0.33         # wizard hat brim radius (head units)
+  robe_flare: 0.33   # lower skirt flare radius
+
+host_channels:
+  coat: 0
+  cloth_sway: 0
+  lean: 0
+  twist: 0
+
+materials:
+  robe:      {ramp: robe, finish: matte}
+  robe_trim: {ramp: robe_trim, finish: matte}
+  hat:       {ramp: hat, finish: matte}
+  gold:      {ramp: gold, finish: metal, edge_highlight: true}
+
+bones:
+  robe_skirt: {parent: at, rot: "[-(coat + cloth_sway)*0.20, 0, 0]"}
+  mantle:     {parent: at, pos: [0, 0.0, -0.02], scale: [0.96, 1.0, 0.56]}
+  wizard_hat: {parent: head, pos: [0, 0.235, -0.055], rot: [-0.36, 0, 0]}
+
+parts:
+  robe_torso:
+    material: robe
+    space: at
+    blend: 0.045
+    prims:
+      - ellipsoid: {c: [0, 0.08, 0], r: [0.21, 0.145, 0.16]}
+      - ellipsoid: {c: [0, 0.26, 0], r: [0.205, 0.165, 0.155]}
+      - ellipsoid: {c: [0, 0.44, 0], r: [0.265, 0.16, 0.17]}
+    paint:
+      - material: robe_trim
+        prims:
+          # High-contrast ivory vertical stole down the front & back center
+          - box: {c: [0, 0.26, 0], half: [0.068, 0.30, 0.24]}
+      - material: gold
+        stripes: {axis: y, at: [0.14], width: 0.05}
+  robe_skirt:
+    material: robe
+    space: robe_skirt
+    blend: 0.03
+    prims:
+      # Long flared mage robe skirt cleanly enclosing knees while showing boots beneath
+      - cone: {a: [0, 0.10, 0.0], b: [0, -0.56, -0.01], r: "[0.225, robe_flare + 0.035]"}
+    paint:
+      - material: robe_trim
+        prims:
+          - box: {c: [0, -0.24, 0.18], half: [0.072, 0.36, 0.24]}
+      - material: gold
+        stripes: {axis: y, at: [-0.51], width: 0.055}
+  mantle:
+    material: robe_trim
+    space: mantle
+    prims:
+      # Crisp ivory collar-cape draped neatly across shoulders without protruding forward
+      - revolve:
+          c: [0, 0, 0]
+          shell: 0.055
+          profile:
+            bezier:
+              - [0.11, 0.64]
+              - [0.28, 0.61]
+              - [0.34, 0.52]
+              - [0.35, 0.46]
+              - [0.34, 0.42]
+              - [0, 0.42]
+              - [-0.34, 0.42]
+              - [-0.35, 0.46]
+              - [-0.34, 0.52]
+              - [-0.28, 0.61]
+              - [-0.11, 0.64]
+              - [0, 0.64]
+    cut:
+      - plane: {n: [0, -1, 0], at: -0.44}
+      - plane: {n: [0, 1, 0], at: 0.61}
+      - box: {c: [0, 0.46, 0.30], half: [0.075, 0.14, 0.16]}
+  hat_brim:
+    material: hat
+    space: wizard_hat
+    when: hat
+    prims:
+      - revolve:
+          c: [0, 0, 0]
+          profile:
+            polygon:
+              - "[-brim, -0.042]"
+              - [-0.15, -0.042]
+              - [0.15, -0.042]
+              - "[brim, -0.042]"
+              - "[brim, 0.0]"
+              - [0.15, 0.008]
+              - [-0.15, 0.008]
+              - "[-brim, 0.0]"
+            round: 0.01
+    paint:
+      - material: gold
+        rings: {axis: y, at: ["brim - 0.025"], width: 0.04}
+  hat_crown:
+    material: hat
+    space: wizard_hat
+    when: hat
+    blend: 0.025
+    prims:
+      # Classic pointed wizard hat cone bending slightly backward
+      - revolve:
+          c: [0, 0, 0]
+          profile:
+            polygon: [[-0.20, -0.01], [0.20, -0.01], [0.13, 0.16], [0.06, 0.25], [-0.06, 0.25], [-0.13, 0.16]]
+            round: 0.012
+      - tube: {pts: [[0, 0.16, 0], [0, 0.25, -0.05], [0, 0.29, -0.15]], r: [0.095, 0.022]}
+    paint:
+      - material: gold
+        stripes: {axis: y, at: [0.045], width: 0.052}
+
+sockets:
+  hat_tip: {bone: wizard_hat, offset: [0, 0.29, -0.15]}

@@ -1,0 +1,34 @@
+spritekiln: 1
+# yaml-language-server: $schema=https://raw.githubusercontent.com/LucasJRamos/spritekiln/main/spritekiln/data/spec.schema.json
+name: preset_a_light_ponytail_sword
+extends: ../../templates/base_humanoid.yaml
+
+brief:
+  summary: Preset A - Adventurer light outfit + golden ponytail with red ribbon + broadsword & heater shield.
+  head: Golden ponytail with crimson ribbon tie and swept bangs; high value contrast against green tunic and crimson shoulder cape.
+  must_keep:
+    - Golden ponytail and crimson ribbon readable in all 8 directions
+    - Broadsword blade readable in all 8 directions including n and nw
+    - Crested heater shield readable in all 8 directions
+    - Readable eyes in front and 3/4 views
+  simplify:
+    - No micro-details under 2px
+
+# Compose purely via independent kits without modifying base_humanoid.yaml
+use:
+  - {kit: hair_ponytail, as: hair, at: head, with: {height: 0.78, length: 1.05, volume: 1.05}}
+  - {kit: outfit_light, as: outfit, at: pelvis}
+  - {kit: weapon_sword_shield, as: weapon, at: wrist_R}
+
+# Minimal material overrides (hair golden for strong value contrast against green tunic & red cape)
+materials:
+  hair: {ramp: hair_gold, finish: matte}
+  cloth: {ramp: armor_dark, finish: matte}
+
+review:
+  min_lstar: 22
+  keep:
+    ponytail: {parts: [hair_tail_main, hair_tail_outer, hair_tail_inner, hair_ribbon], min_px: 10}
+    sword:    {parts: [weapon_sword_blade, weapon_sword_guard], min_px: 8}
+    shield:   {parts: [weapon_shield, weapon_shield_boss], min_px: 14}
+    eyes:     {parts: [eye_L, eye_R], min_px: 2, dirs: [s, se, sw]}

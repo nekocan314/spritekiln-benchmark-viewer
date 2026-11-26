@@ -1,0 +1,110 @@
+spritekiln: 1
+kit: hair_ponytail
+license: CC0-1.0
+summary: Ponytail hair kit with bangs, temple locks, bright ribbon tie, and animated multi-strand tail with direction cheat
+host: base_humanoid
+at: head
+params:
+  height: 0.78       # tie height (0 nape .. 1 crown)
+  length: 1.05       # tail drop length (clears shoulder cape and avoids torso clipping)
+  volume: 1.05       # tail fullness
+  size: 1.0          # scale about head centre
+  cheat: 1.0         # per-direction cheat so tail reads beside head near s instead of hiding or sticking up
+
+host_channels:
+  head_pitch: 0
+  head_yaw: 0
+  twist: 0
+  hair_swing: 0
+  hair_sway: 0
+
+materials:
+  hair: {ramp: hair, finish: matte}
+  tie:  {ramp: tie, finish: matte}
+
+bones:
+  hair: {parent: at, pos: [0, 0.14, 0], scale: size}
+  tie:
+    parent: at
+    scale: size
+    rot: "[-head_pitch, 0, 0]"
+    pos: "[0, 0.14 + size*(0.05 + 0.12*cos(2.3 - 1.8*height) - 0.044*sin(2.3 - 1.8*height)),
+           size*(-0.05 - 0.037*cos(2.3 - 1.8*height) - 0.145*sin(2.3 - 1.8*height) - 0.02*(1 - height))]"
+  tail:
+    parent: tie
+    rot: "[hair_swing - 0.30*abs(cheat)*pulse((yaw + 57.3*twist)*sx, 0, 42) - 0.75*abs(cheat)*pulse((yaw + 57.3*twist)*sx*sign(cheat), 20, 32),
+           -head_yaw - (0.65 + 0.6*pos(hair_swing))*cheat*pulse((yaw + 57.3*twist)*sx, 0, 42),
+           hair_sway + 0.72*cheat*pulse((yaw + 57.3*twist)*sx, 0, 42)]"
+  tail_end:
+    parent: tail
+    pos: "[0, -0.15 + 0.05*height, -0.10 - 0.14*height]"
+    rot: "[0.35*hair_swing, 0, -0.35*cheat*pulse((yaw + 57.3*twist)*sx, 0, 42)]"
+
+parts:
+  crown:
+    material: hair
+    space: hair
+    blend: 0.025
+    prims:
+      - ellipsoid: {c: [0, 0.05, -0.045], r: [0.148, 0.13, 0.158], rot: [-0.28, 0, 0]}
+  fringe:
+    material: hair
+    space: hair
+    blend: 0.01
+    prims:
+      - tube: {pts: [[0.03, 0.15, 0.02], [0.0, 0.12, 0.135], [-0.025, 0.05, 0.14]], r: [0.036, 0.015]}
+      - tube: {pts: [[-0.03, 0.145, 0.01], [-0.08, 0.11, 0.12], [-0.115, 0.045, 0.105]], r: [0.032, 0.015]}
+      - tube: {pts: [[0.06, 0.145, 0.01], [0.095, 0.11, 0.12], [0.115, 0.05, 0.10]], r: [0.032, 0.015]}
+  lock_L:
+    material: hair
+    space: hair
+    line: false
+    prims:
+      - tube: {pts: [[0.135, 0.075, -0.02], [0.165, -0.03, 0.01], [0.145, -0.12, 0.025]], r: [0.027, 0.015]}
+  ribbon:
+    material: tie
+    space: tail
+    priority: 2
+    blend: 0.01
+    prims:
+      # Knot band plus two small ribbon tails so the tie accent reads clearly
+      - cylinder: {a: [0, -0.01, 0.01], b: [0, 0.05, -0.055], r: "0.062*volume + 0.014", round: 0.008}
+      - tube: {pts: [[0.03, 0.02, -0.03], [0.10, -0.02, -0.08], [0.14, -0.10, -0.10]], r: [0.022, 0.015]}
+      - tube: {pts: [[-0.03, 0.02, -0.03], [-0.10, -0.02, -0.08], [-0.14, -0.10, -0.10]], r: [0.022, 0.015]}
+  tail_main:
+    material: hair
+    space: tail
+    blend: 0.02
+    prims:
+      - sphere: {c: [0, 0.055, -0.065], r: "0.058*volume"}
+      - tube:
+          pts:
+            - [0, -0.01, 0.02]
+            - [0, 0.08, -0.10]
+            - [0, -0.02, -0.21]
+            - {at: tail_end, off: [0, 0.01, -0.03]}
+            - {at: tail_end, off: "[0, -0.18*length, -0.05]"}
+            - {at: tail_end, off: "[0, -0.34*length, -0.02]"}
+          r: "[0.065*volume, 0.018]"
+  tail_outer:
+    material: hair
+    space: tail
+    prims:
+      - tube:
+          pts:
+            - [0.01, 0.04, -0.05]
+            - [0.03, 0.06, -0.15]
+            - {at: tail_end, off: [0.035, -0.03, -0.08]}
+            - {at: tail_end, off: "[0.065, -0.28*length, -0.11]"}
+          r: "[0.046*volume, 0.016]"
+  tail_inner:
+    material: hair
+    space: tail
+    prims:
+      - tube:
+          pts:
+            - [-0.01, 0.02, -0.04]
+            - [-0.025, -0.04, -0.15]
+            - {at: tail_end, off: [-0.035, -0.02, -0.02]}
+            - {at: tail_end, off: "[-0.06, -0.30*length, -0.02]"}
+          r: "[0.046*volume, 0.016]"

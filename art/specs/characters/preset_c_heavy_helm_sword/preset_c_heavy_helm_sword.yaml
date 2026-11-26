@@ -1,0 +1,34 @@
+spritekiln: 1
+# yaml-language-server: $schema=https://raw.githubusercontent.com/LucasJRamos/spritekiln/main/spritekiln/data/spec.schema.json
+name: preset_c_heavy_helm_sword
+extends: ../../templates/base_humanoid.yaml
+
+brief:
+  summary: Preset C - Heavy knight plate armor with crested open-face steel helmet + broadsword & heater shield.
+  head: Crested steel knight helmet with gold rim trim and crimson plume crest. Hair kit is intentionally omitted under full-coverage helmet to guarantee zero hair-through-steel clipping in all 8 directions.
+  must_keep:
+    - Steel helmet and crimson plume crest readable in all 8 directions
+    - Plate cuirass and mirrored shoulder pauldrons with strong value contrast against dark under-armor
+    - Broadsword blade readable in all 8 directions including n and nw
+    - Crested heater shield readable in all 8 directions
+  simplify:
+    - Hair kit disabled under helmet (helmet-replaces-hair rule) to eliminate clipping
+
+# Helmet-hair interference rule: when equipping full-coverage `outfit_heavy` (helm: true), omit hair kit completely
+# Also drop inherited `review.keep.eyes` because helmet cheek guards intentionally shade 3/4 eyes
+remove: [review.keep.eyes]
+
+use:
+  - {kit: outfit_heavy, as: outfit, at: pelvis, with: {helm: true, visor: false, crest: 0.16}}
+  - {kit: weapon_sword_shield, as: weapon, at: wrist_R}
+
+materials:
+  cloth: {ramp: armor_dark, finish: matte}
+
+review:
+  min_lstar: 22
+  keep:
+    helm_crest: {parts: [outfit_helm_crest], min_px: 10}
+    helmet:     {parts: [outfit_helmet], min_px: 30}
+    sword:      {parts: [weapon_sword_blade, weapon_sword_guard], min_px: 8}
+    shield:     {parts: [weapon_shield, weapon_shield_boss], min_px: 14}

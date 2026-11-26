@@ -1,0 +1,35 @@
+spritekiln: 1
+# yaml-language-server: $schema=https://raw.githubusercontent.com/LucasJRamos/spritekiln/main/spritekiln/data/spec.schema.json
+name: preset_d_robe_long_staff
+extends: ../../templates/base_humanoid.yaml
+
+brief:
+  summary: Preset D - Royal-blue mage robe with ivory trim & pointed wizard hat + golden long hair + glowing arcane crystal staff.
+  head: Golden long hair (crown volume reduced to 0.72 to fit cleanly under the tilted wide-brim wizard hat without clipping) framing the face and flowing down the back.
+  must_keep:
+    - Pointed wide-brim wizard hat with gold band in all 8 directions
+    - Long golden hair flowing from beneath the hat in all 8 directions
+    - Glowing cyan arcane crystal (emissive map) readable in all 8 directions
+    - Staff shaft readable in all 8 directions
+    - Readable eyes in front and 3/4 views
+  simplify:
+    - No micro-details under 2px
+
+# Hat-hair fit rule: reduce hair_long `volume: 0.72` so crown stays inside wizard hat while side/back locks drape freely
+use:
+  - {kit: hair_long, as: hair, at: head, with: {length: 1.08, volume: 0.72}}
+  - {kit: outfit_robe, as: outfit, at: pelvis, with: {hat: true, brim: 0.33}}
+  - {kit: weapon_staff, as: weapon, at: wrist_R}
+
+materials:
+  hair:  {ramp: hair_gold, finish: matte}
+  cloth: {ramp: robe, finish: matte}
+
+review:
+  min_lstar: 22
+  keep:
+    wizard_hat:    {parts: [outfit_hat_brim, outfit_hat_crown], min_px: 30}
+    long_hair:     {parts: [hair_lock_L, hair_lock_R, hair_back_center, hair_back_side_L, hair_back_side_R], min_px: 14}
+    staff_crystal: {parts: [weapon_crystal], materials: [magic], min_px: 6}
+    staff_shaft:   {parts: [weapon_shaft, weapon_ferrule], min_px: 10}
+    eyes:          {parts: [eye_L, eye_R], min_px: 2, dirs: [s, se, sw]}

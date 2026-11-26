@@ -1,0 +1,131 @@
+spritekiln: 1
+kit: weapon_sword_shield
+license: CC0-1.0
+summary: One-handed broadsword (wrist_R) and crested heater shield (wrist_L) with per-direction cheats to prevent body occlusion
+host: base_humanoid
+at: wrist_R
+params:
+  sword_length: 0.56  # generous blade length so sword stays readable in e/w/n views
+  sword_width: 0.082  # clear 2px blade width at scale 0.04
+  shield_w: 0.46      # heater shield width
+  shield_h: 0.58      # heater shield height
+  cheat: 1.0          # per-direction visibility cheat strength (0 disables)
+
+host_channels:
+  weapon_pitch: 0
+  weapon_roll: 0
+  shield_guard: 0
+
+materials:
+  steel:   {ramp: steel, finish: metal, crease: true, edge_highlight: true}
+  gold:    {ramp: gold, finish: metal, edge_highlight: true}
+  leather: {ramp: leather, finish: matte}
+  wood:    {ramp: wood, finish: matte, bands: [2, 5]}
+  cape:    {ramp: cape, finish: matte}
+
+bones:
+  # Sword mounted on wrist_R: +rz tilts blade outward (-x right side of character) so n, nw, and s always show a crisp silhouette
+  sword:
+    parent: at
+    pos: "[0 - 0.10*cheat*pulse(yaw, -135, 45), 0.08*cheat*pulse(yaw, -135, 45), 0.035]"
+    rot: "[0.48 + weapon_pitch - 0.55*cheat*pulse(yaw, 180, 50) - 0.85*cheat*pulse(yaw, -135, 45) + 0.18*cheat*pulse(yaw, 0, 45),
+           weapon_roll,
+           0.35*cheat*pulse(yaw, 0, 45) + 0.78*cheat*pulse(yaw, 180, 55) + 0.95*cheat*pulse(yaw, -135, 45) - 0.25*cheat*pulse(yaw, 90, 45)]"
+  # Heater shield mounted on host wrist_L
+  shield_mount:
+    parent: wrist_L
+    pos: [0.095, 0.02, -0.04]
+    rot: "[0, 1.5708, -1.02]"
+  shield_face:
+    parent: shield_mount
+    rot: "[0, -(0.62 + 0.55*shield_guard + 0.85*cheat*(pulse(yaw, 45, 42) - pulse(yaw, -135, 42))), 0]"
+
+parts:
+  sword_blade:
+    material: steel
+    space: sword
+    priority: 2
+    min_cover: 2
+    prims:
+      - extrude:
+          c: [0, 0, 0]
+          depth: 0.046
+          round: 0.008
+          profile:
+            polygon:
+              - "[-sword_width/2, 0.085]"
+              - "[sword_width/2, 0.085]"
+              - "[sword_width*0.44, 0.085 + sword_length*0.84]"
+              - "[0, 0.085 + sword_length]"
+              - "[-sword_width*0.44, 0.085 + sword_length*0.84]"
+  sword_guard:
+    material: gold
+    space: sword
+    priority: 2
+    prims:
+      - extrude: {c: [0, 0.075, 0], depth: 0.05, profile: {rect: [0.095, 0.024], chamfer: 0.01}}
+  sword_grip:
+    material: leather
+    space: sword
+    prims:
+      - cylinder: {a: [0, -0.055, 0], b: [0, 0.065, 0], r: 0.024}
+  sword_pommel:
+    material: gold
+    space: sword
+    prims:
+      - sphere: {c: [0, -0.07, 0], r: 0.032}
+  shield:
+    material: steel
+    space: shield_face
+    priority: 2
+    prims:
+      - extrude:
+          c: [0, 0, 0]
+          depth: 0.055
+          round: 0.012
+          profile:
+            bezier:
+              - "[-shield_w/2, shield_h*0.42]"
+              - "[0, shield_h*0.42]"
+              - "[shield_w/2, shield_h*0.42]"
+              - "[shield_w/2, shield_h*0.26]"
+              - "[shield_w/2, shield_h*0.10]"
+              - "[shield_w/2, -shield_h*0.20]"
+              - "[0, -shield_h*0.56]"
+              - "[-shield_w/2, -shield_h*0.20]"
+              - "[-shield_w/2, shield_h*0.10]"
+              - "[-shield_w/2, shield_h*0.26]"
+    paint:
+      - material: wood
+        prims:
+          - extrude:
+              c: [0, 0, 0]
+              depth: 0.35
+              profile:
+                bezier:
+                  - "[0.045 - shield_w/2, shield_h*0.42 - 0.045]"
+                  - "[0, shield_h*0.42 - 0.045]"
+                  - "[shield_w/2 - 0.045, shield_h*0.42 - 0.045]"
+                  - "[shield_w/2 - 0.045, shield_h*0.26]"
+                  - "[shield_w/2 - 0.045, shield_h*0.10]"
+                  - "[shield_w/2 - 0.045, -shield_h*0.20]"
+                  - "[0, 0.065 - shield_h*0.56]"
+                  - "[0.045 - shield_w/2, -shield_h*0.20]"
+                  - "[0.045 - shield_w/2, shield_h*0.10]"
+                  - "[0.045 - shield_w/2, shield_h*0.26]"
+      - material: cape
+        prims:
+          # Heraldic crimson cross on shield face
+          - box: {c: [0, -0.02, 0], half: [0.038, 0.16, 0.20]}
+          - box: {c: [0, 0.04, 0], half: [0.12, 0.036, 0.20]}
+  shield_boss:
+    material: gold
+    space: shield_face
+    priority: 2
+    prims:
+      - sphere: {c: [0, 0.04, 0.025], r: 0.052}
+
+sockets:
+  hit:   {bone: sword, offset: "[0, 0.085 + sword_length*0.72, 0]"}
+  tip:   {bone: sword, offset: "[0, 0.085 + sword_length, 0]"}
+  block: {bone: shield_face, offset: [0, 0, 0.055]}

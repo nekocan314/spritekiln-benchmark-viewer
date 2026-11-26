@@ -1,0 +1,42 @@
+# SpriteKiln project settings (https://github.com/LucasJRamos/spritekiln).
+# Commands run anywhere inside this folder find this file.
+
+[project]
+specs = "art/specs"        # where `spritekiln new` creates specs
+engine = "generic"       # godot | unity | monogame | generic
+ai = ["gemini"]       # assistants whose files `spritekiln update` refreshes
+
+[export]
+# `spritekiln export <spec>` (or `render --export`) copies the atlas, JSON and maps here;
+# for Godot it also writes SpriteFrames, a CanvasTexture and a ready scene.
+dir = "sprites"
+
+[defaults]                # given to specs created by `spritekiln new`
+view = "topdown"
+size = 64
+palette = "fantasy_rpg"
+camera = { pitch = 38, scale = 0.04 }
+
+[style]                   # the art style every asset follows (`spritekiln style`); change it only when asked
+recorded = 2026-11-26
+view = "topdown"
+height = 44               # px on screen of a human-sized character
+scale = 0.04              # camera.scale of every asset (from height)
+size = 64                 # frame px for that character
+directions = 8
+mirror = false
+palette = "fantasy_rpg"
+colors = "classic fantasy RPG, 4-6 hue-shifted tones, value contrast separation"
+outline = "selective"
+outline_color = ""        # with outline "dark"; empty: the darkest tone of the ramps
+shading = "soft"
+lines = "depth"
+highlights = true
+dither = "none"
+light = "classic"
+proportions = "stylized"
+face = "minimal"          # minimal: eyes only, no nose; simple: + a hint of brow or nose on big heads; detailed
+animation = "fluid"
+snap = true               # root and torso move in whole pixels
+references = []
+notes = "2.5-3 head-tall (head scale 1.35), no details under 2px, keep weapons/hair visible in all 8 dirs"

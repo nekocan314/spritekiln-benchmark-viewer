@@ -1,0 +1,101 @@
+spritekiln: 1
+kit: outfit_light
+license: CC0-1.0
+summary: Adventurer light outfit with emerald tunic, leather belt with gold buckle, hip pouch, and short crimson shoulder cape
+host: base_humanoid
+at: pelvis
+params:
+  cape_length: 0.48   # agile shoulder mantle length (clears ponytail tips and tunic hem)
+  cape_width: 0.40    # slim shoulder spread
+  belt_y: 0.12        # belt height on pelvis
+
+host_channels:
+  coat: 0
+  cloth_sway: 0
+  lean: 0
+  twist: 0
+
+materials:
+  tunic:   {ramp: tunic, finish: matte}
+  cape:    {ramp: cape, finish: matte}
+  leather: {ramp: leather, finish: matte}
+  gold:    {ramp: gold, finish: metal, edge_highlight: true}
+
+bones:
+  tunic_hem: {parent: at, rot: "[-(coat + cloth_sway)*0.22, 0, 0]"}
+  short_cape:
+    parent: at
+    pos: [0, 0.55, 0]
+    rot: "[0.16*abs(coat) + cloth_sway*0.42 - lean*0.45, -twist*0.28, 0]"
+  belt: {parent: at, pos: "[0, belt_y, 0]"}
+
+parts:
+  tunic_body:
+    material: tunic
+    space: at
+    blend: 0.05
+    prims:
+      # Adventurer tunic over chest and waist with contrasting lighter/emerald value against dark trousers
+      - ellipsoid: {c: [0, 0.06, 0], r: [0.20, 0.14, 0.15]}
+      - ellipsoid: {c: [0, 0.25, 0], r: [0.195, 0.16, 0.145]}
+      - ellipsoid: {c: [0, 0.43, 0], r: [0.255, 0.155, 0.16]}
+    paint:
+      - material: leather
+        prims:
+          # Diagonal chest baldric strap
+          - box: {c: [0.0, 0.30, 0.0], half: [0.045, 0.34, 0.22], rot: [0, 0, 0.52]}
+  tunic_skirt:
+    material: tunic
+    space: tunic_hem
+    blend: 0.025
+    prims:
+      - cone: {a: [0, 0.08, -0.01], b: [0, -0.24, -0.03], r: [0.21, 0.26]}
+    cut:
+      - cone: {a: [0, -0.08, 0.20], b: [0, -0.35, 0.28], r: [0.06, 0.15]}
+    paint:
+      - material: gold
+        stripes: {axis: y, at: [-0.21], width: 0.045}
+  belt:
+    material: leather
+    space: belt
+    prims:
+      - cylinder: {a: [0, -0.042, 0], b: [0, 0.042, 0], r: 0.215, round: 0.01}
+  buckle:
+    material: gold
+    space: belt
+    priority: 2
+    prims:
+      - extrude: {c: [0, 0, 0.22], depth: 0.045, profile: {rect: [0.055, 0.052], chamfer: 0.012}}
+  pouch:
+    material: leather
+    space: belt
+    prims:
+      - box: {c: [0.21, -0.05, 0.07], half: [0.052, 0.072, 0.062], rot: [0, 0.45, -0.1], round: 0.014}
+  cape:
+    material: cape
+    space: short_cape
+    blend: 0.025
+    prims:
+      - cone:
+          a: [0, 0, -0.04]
+          b: "[0, -cape_length, -0.13]"
+          r: "[cape_width/2 - 0.04, cape_width/2 + 0.07]"
+          elongate: [0.04, 0, 0]
+          shell: 0.046
+      - cone: {a: [0.06, -0.08, -0.18], b: "[0.13, -cape_length - 0.04, -0.29]", r: [0.016, 0.038]}
+      - cone: {a: [-0.06, -0.08, -0.18], b: "[-0.13, -cape_length - 0.04, -0.29]", r: [0.016, 0.038]}
+    cut:
+      - plane: {n: [0, 1, 0], at: 0}
+      - plane: {n: [0, -1, 0.25], c: "[0, -cape_length, -0.13]"}
+      - plane: {n: [0, 0, 1], at: 0.0}
+  cape_collar:
+    material: cape
+    space: short_cape
+    prims:
+      - torus: {c: [0, 0.01, -0.01], R: 0.19, r: 0.052, rot: [0.28, 0, 0]}
+  cape_clasp:
+    material: gold
+    space: short_cape
+    priority: 2
+    prims:
+      - sphere: {c: [0, -0.03, 0.205], r: 0.046}

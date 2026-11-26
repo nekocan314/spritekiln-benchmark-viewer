@@ -1,0 +1,56 @@
+spritekiln: 1
+# yaml-language-server: $schema=https://raw.githubusercontent.com/LucasJRamos/spritekiln/main/spritekiln/data/spec.schema.json
+name: preset_e_base_hair_compare
+extends: ../../templates/base_humanoid.yaml
+
+brief:
+  summary: Preset E - Base humanoid body with swappable 3 hair kits (short / ponytail / long) in static 8-direction comparison frames.
+  head: Direct A/B/C comparison of hair_short (frame 0), hair_ponytail (frame 1), and hair_long (frame 2) on the unmodified base_humanoid body.
+  must_keep:
+    - Clear silhouette differentiation among short, ponytail, and long hair across all 8 directions
+    - Readable eyes in front and 3/4 views for all three hairstyles
+  simplify:
+    - Static 8-direction showcase clip only (no locomotion/combat clips)
+
+remove: [animations.idle, animations.walk, animations.attack, animations.dodge, timing]
+
+channels:
+  hair_variant: 0   # 0 = hair_short, 1 = hair_ponytail, 2 = hair_long
+
+use:
+  - {kit: hair_short, as: hs, at: head, with: {volume: 1.0, spike: 1.0}}
+  - {kit: hair_ponytail, as: hp, at: head, with: {height: 0.78, length: 1.05, volume: 1.05}}
+  - {kit: hair_long, as: hl, at: head, with: {length: 1.0, volume: 1.0}}
+
+parts:
+  # Switch active hair kit per comparison frame using `when:` overrides
+  hs_crown:       {when: "hair_variant == 0"}
+  hs_fringe:      {when: "hair_variant == 0"}
+  hs_tuft_top:    {when: "hair_variant == 0"}
+  hs_lock_L:      {when: "hair_variant == 0"}
+  hs_nape:        {when: "hair_variant == 0"}
+  hp_crown:       {when: "hair_variant == 1"}
+  hp_fringe:      {when: "hair_variant == 1"}
+  hp_lock_L:      {when: "hair_variant == 1"}
+  hp_ribbon:      {when: "hair_variant == 1"}
+  hp_tail_main:   {when: "hair_variant == 1"}
+  hp_tail_outer:  {when: "hair_variant == 1"}
+  hp_tail_inner:  {when: "hair_variant == 1"}
+  hl_crown:       {when: "hair_variant == 2"}
+  hl_fringe:      {when: "hair_variant == 2"}
+  hl_lock_L:      {when: "hair_variant == 2"}
+  hl_back_center: {when: "hair_variant == 2"}
+  hl_back_side_L: {when: "hair_variant == 2"}
+
+animations:
+  compare:
+    loop: true
+    keys:
+      - {ms: 1200, event: hair_short, set: {hair_variant: 0}}
+      - {ms: 1200, event: hair_ponytail, set: {hair_variant: 1}}
+      - {ms: 1200, event: hair_long, set: {hair_variant: 2}}
+
+review:
+  min_lstar: 22
+  keep:
+    eyes: {parts: [eye_L, eye_R], min_px: 2, dirs: [s, se, sw]}

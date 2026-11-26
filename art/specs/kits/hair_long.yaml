@@ -1,0 +1,63 @@
+spritekiln: 1
+kit: hair_long
+license: CC0-1.0
+summary: Flowing long hair with bangs, collarbone side locks, and multi-strand cascading back locks
+host: base_humanoid
+at: head
+params:
+  length: 1.0        # back drape length (0.7 shoulders .. 1.3 mid-back)
+  volume: 1.0        # crown fullness (set 0.72 under a wide-brim hat to avoid poking through)
+  size: 1.0          # uniform scale around head centre
+
+host_channels:
+  head_pitch: 0
+  twist: 0
+  hair_swing: 0
+  hair_sway: 0
+
+materials:
+  hair: {ramp: hair, finish: matte}
+
+bones:
+  hair: {parent: at, pos: [0, 0.14, 0], scale: size}
+  long_back:
+    parent: hair
+    pos: [0, -0.02, -0.12]
+    rot: "[-head_pitch*0.6 + hair_swing*0.45, -twist*0.2, hair_sway*0.4]"
+
+parts:
+  crown:
+    material: hair
+    space: hair
+    blend: 0.025
+    prims:
+      - ellipsoid: {c: [0, 0.045, -0.045], r: "[0.13 + 0.024*volume, 0.105 + 0.022*volume, 0.14 + 0.02*volume]", rot: [-0.25, 0, 0]}
+  fringe:
+    material: hair
+    space: hair
+    blend: 0.01
+    prims:
+      - tube: {pts: [[-0.02, 0.14, 0.02], [0.01, 0.115, 0.135], [0.04, 0.04, 0.14]], r: [0.036, 0.015]}
+      - tube: {pts: [[-0.04, 0.14, 0.01], [-0.085, 0.105, 0.12], [-0.12, 0.035, 0.105]], r: [0.032, 0.015]}
+      - tube: {pts: [[0.05, 0.14, 0.01], [0.095, 0.105, 0.115], [0.12, 0.04, 0.095]], r: [0.032, 0.015]}
+  lock_L:
+    material: hair
+    space: hair
+    blend: 0.012
+    prims:
+      # Long front side locks framing the cheeks and draping down toward the chest
+      - tube: {pts: [[0.135, 0.07, -0.02], [0.175, -0.06, 0.02], [0.165, -0.22, 0.04], [0.145, -0.34, 0.05]], r: [0.038, 0.016]}
+  back_center:
+    material: hair
+    space: long_back
+    blend: 0.02
+    prims:
+      - tube: {pts: [[0, 0.04, -0.02], [0, -0.14, -0.08], "[0, -0.34*length, -0.10]", "[0, -0.52*length, -0.07]"], r: [0.085, 0.024]}
+  back_side_L:
+    material: hair
+    space: long_back
+    blend: 0.015
+    prims:
+      # Side cascading locks visible from s/se/e/ne/n (mirrored to _R automatically)
+      - tube: {pts: [[0.09, 0.05, 0.01], [0.14, -0.12, -0.04], "[0.16, -0.30*length, -0.06]", "[0.14, -0.46*length, -0.04]"], r: [0.068, 0.020]}
+      - tube: {pts: [[0.13, 0.03, 0.05], [0.19, -0.11, 0.01], "[0.20, -0.26*length, -0.01]", "[0.17, -0.38*length, 0.01]"], r: [0.050, 0.017]}

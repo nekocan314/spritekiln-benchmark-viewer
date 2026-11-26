@@ -1,0 +1,32 @@
+spritekiln: 1
+# yaml-language-server: $schema=https://raw.githubusercontent.com/LucasJRamos/spritekiln/main/spritekiln/data/spec.schema.json
+name: preset_b_light_short_staff
+extends: ../../templates/base_humanoid.yaml
+
+brief:
+  summary: Preset B - Adventurer light outfit + dynamic short hair + arcane glowing crystal staff.
+  head: Layered warm chestnut short hair with swept bangs and dynamic nape tufts; strong value contrast against green tunic and bright cyan crystal.
+  must_keep:
+    - Layered short hair silhouette in all 8 directions
+    - Glowing cyan arcane crystal (emissive map) readable in all 8 directions
+    - Staff shaft readable in all 8 directions
+    - Readable eyes in front and 3/4 views
+  simplify:
+    - No micro-details under 2px
+
+use:
+  - {kit: hair_short, as: hair, at: head, with: {volume: 1.0, spike: 1.0}}
+  - {kit: outfit_light, as: outfit, at: pelvis}
+  - {kit: weapon_staff, as: weapon, at: wrist_R}
+
+materials:
+  hair:  {ramp: hair, finish: matte}
+  cloth: {ramp: armor_dark, finish: matte}
+
+review:
+  min_lstar: 22
+  keep:
+    hair_short:    {parts: [hair_crown, hair_fringe, hair_tuft_top, hair_nape], min_px: 20}
+    staff_crystal: {parts: [weapon_crystal], materials: [magic], min_px: 6}
+    staff_shaft:   {parts: [weapon_shaft, weapon_ferrule], min_px: 10}
+    eyes:          {parts: [eye_L, eye_R], min_px: 2, dirs: [s, se, sw]}
