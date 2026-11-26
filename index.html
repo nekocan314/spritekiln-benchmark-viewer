@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>SpriteKiln Benchmark Viewer</title>
+    <script type="module" crossorigin src="./assets/index-J2Pu_EFF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-gdqXSh0X.css">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Top HUD: Preset selector & live telemetry -->
+      <header class="top-bar">
+        <div class="title-row">
+          <div class="brand">
+            <span class="dot"></span>
+            <h1>SpriteKiln Bench</h1>
+          </div>
+          <div class="bg-pills" role="group" aria-label="背景切替">
+            <button class="pill active" data-bg="dark">暗</button>
+            <button class="pill" data-bg="mid">中</button>
+            <button class="pill" data-bg="light">明</button>
+          </div>
+        </div>
+        <div class="preset-strip" id="presetStrip" role="tablist" aria-label="プリセット切替"></div>
+      </header>
+
+      <!-- Main Stage: Swipe horizontally to rotate, touch/drag in Dynamic Light mode to move light -->
+      <main class="stage-wrap bg-dark" id="stageWrap">
+        <canvas id="spriteCanvas" width="320" height="320"></canvas>
+
+        <!-- HUD Overlays inside Stage -->
+        <div class="stage-hud-top">
+          <span class="badge dir-badge" id="dirBadge">DIR: S</span>
+          <span class="badge frame-badge" id="frameBadge">F 0/0</span>
+          <span class="badge event-badge" id="eventBadge" hidden>EVENT</span>
+        </div>
+
+        <div class="stage-hint" id="stageHint">◀ 左右スワイプで8方向回転 ▶</div>
+
+        <!-- Frame timeline & event markers -->
+        <div class="timeline-bar" id="timelineBar"></div>
+
+        <!-- Preset E Hair Variant Quick Switcher (shown only for Preset E) -->
+        <div class="hair-compare-bar" id="hairCompareBar" hidden>
+          <button class="hair-btn active" data-hair-frame="0">ショート</button>
+          <button class="hair-btn" data-hair-frame="1">ポニーテール</button>
+          <button class="hair-btn" data-hair-frame="2">ロング</button>
+        </div>
+      </main>
+
+      <!-- Bottom One-Hand Control Dock (iPhone Safari Mobile-First) -->
+      <footer class="control-dock">
+        <!-- Row 1: Action / Clip Tabs -->
+        <div class="dock-row action-row" id="actionRow" role="group" aria-label="アクション切替"></div>
+
+        <!-- Row 2: 8-Direction Ring / Compact Row -->
+        <div class="dock-row dir-row" id="dirRow" role="group" aria-label="8方向切替"></div>
+
+        <!-- Row 3: Playback (Play/Pause, Step, Speed) -->
+        <div class="dock-row playback-row">
+          <div class="btn-group">
+            <button class="ctrl-btn icon-btn" id="btnPrev" aria-label="1コマ戻る">⏮</button>
+            <button class="ctrl-btn primary-btn" id="btnPlayPause" aria-label="再生/一時停止">⏸ 一時停止</button>
+            <button class="ctrl-btn icon-btn" id="btnNext" aria-label="1コマ進む">⏭</button>
+          </div>
+          <div class="btn-group speed-group" role="group" aria-label="再生速度">
+            <button class="ctrl-btn speed-btn active" data-speed="1">1.0x</button>
+            <button class="ctrl-btn speed-btn" data-speed="0.5">0.5x</button>
+            <button class="ctrl-btn speed-btn" data-speed="0.25">0.25x</button>
+          </div>
+        </div>
+
+        <!-- Row 4: Render Mode (Normal / Normal Map / Emissive / Dynamic Light) -->
+        <div class="dock-row mode-row" role="group" aria-label="表示モード切替">
+          <button class="mode-btn active" data-mode="color">通常</button>
+          <button class="mode-btn" data-mode="normal">法線</button>
+          <button class="mode-btn" data-mode="emissive">発光</button>
+          <button class="mode-btn" data-mode="lit">動的ライト</button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
